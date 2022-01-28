@@ -1,0 +1,195 @@
+.page-wrapper {
+  background: transparent url("https://clippersweb.blob.core.windows.net/kidsclub/img/textture2.jpg");
+	padding-bottom:50px;
+}
+.row-full-header{
+  display: flex;
+  justify-content: center;
+}
+.region-content{
+	background: transparent url("https://clippersweb.blob.core.windows.net/kidsclub/img/textture2.jpg");
+  background-size:contain;
+  font-family: 'Avenir', sans-serif;
+}
+#content a{
+  transition: all .2s ease-in;
+}
+#content a:hover{
+	color:#f00;
+}
+
+.btn-red{
+  background:#da1a32;
+  margin:40px 0 0;
+  border-radius:0;
+  color:#FFF;
+  font-size:16px;
+  padding:15px 20px 13px;
+  text-shadow:0 none;
+  font-weight: 600;
+  text-transform:uppercase;
+}
+.btn-red:hover,
+.btn-red:active,
+.btn-red:focus{
+  color:#FFF !important;
+  background:#00438c;;
+}
+
+/* NAV */
+.nav{
+	display: flex;
+}
+.nav a{
+	padding:22px 0;
+	flex-grow: 1;
+	text-align:center;
+	text-transform: uppercase;
+	color:#FFF;
+	font-size:20px;
+	flex-shrink:0;
+  font-family: "Agency fb bold";
+}
+.nav a:hover,
+.scrollactive-item.is-active{
+	cursor:pointer;
+	text-decoration: none;
+	color:#ff0000;
+}
+#survey-area{
+	height:1090px;
+}
+.connect-wrapper{
+	padding:0;
+  margin-top:40px;
+}
+.connect-wrapper .row{
+	margin-top:50px
+}
+.connect-wrapper .col-xs-4{
+	display: flex;
+	justify-content: center;
+}
+.connect-icon{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	background: #FFF;
+	padding:8px;
+	transition: all .2s ease-in;
+}
+.connect-icon svg{
+	transition: all .2s ease-in;
+}
+.connect-icon:hover{
+	background:#EEE;
+}
+.connect-icon:hover svg{
+	margin-top:-3px;
+}
+.glyphicon-new-window{
+  font-size:16px;
+  margin-left:8px;
+}
+#benefits {
+  margin-top:75px;
+}
+#benefits .row{
+  margin-bottom:50px;
+}
+.row-connect,
+.nominate{
+  margin-top:75px;
+}
+.section-title{
+  text-align:center;
+  margin-bottom:30px;
+  font-family: "Agency fb bold";
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.sign-up p{
+  font-size:20px;
+  line-height: 24px;
+}
+
+/* Phones */
+@media screen and (max-width: 767px) {
+  .header-image{
+    margin-top:30px;
+  }
+  .main-nav-wrapper {
+    margin-bottom: 0px;
+  }
+  .not-front #content {
+    margin-top: -20px;
+  }
+	.row-full{
+		padding-left:15px;
+		padding-right:15px;
+	}
+  .row-full-nav .container{
+    padding:0;
+  }
+  .connect-wrapper .row > div{
+    padding-left:3px;
+    padding-right:3px;
+  }
+  #benefits {
+    margin-top: 25px;
+  }
+  #benefits .row {
+    margin-bottom: 0px;
+  }
+  #benefits .row > div{
+    margin-bottom: 30px;
+  }
+  #survey-area{
+    height:1290px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+	.row-full-nav > .container {
+    width: 100%;
+		padding-left:0;
+		padding-right:0;
+	}
+	.row-full-header{
+		height: 500px;
+		background-size:cover;
+	}
+	.row-full-nav{
+		position: sticky;
+		top:0;
+		z-index: 100;
+		background:#1e1e1e;
+	}
+  .stw .row > div{
+    margin-bottom:0px;
+  }
+	.connect-icon{
+		width: 125px;
+		height: 125px;
+		padding:30px;
+	}
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+  .row-full-header{
+		height:450px;
+   	background:transparent url("https://clippersweb.blob.core.windows.net/kidsclub/img/WEB-BANNER_LAC-KIDS-CLUB_2880x1020.jpg") no-repeat center bottom;
+		background-size:cover;
+	}
+	.row-full-nav > .container{
+		width:970px;
+	}
+}
+
+@media (min-width: 1155px) {
+	.row-full-nav > .container{
+		width:1170px;
+	}
+}

@@ -1,0 +1,385 @@
+
+ul.tabss {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	width: 100%;
+	text-align: center;
+  display:flex;
+  position: relative;
+  z-index: 1;
+}
+
+ul.tabss li {
+  flex:1;
+	margin: 0 15px;
+	cursor: pointer;
+	padding: 5px 15px 0;
+	border:1px solid #BBB;
+	line-height: 18px;
+	color: #000;
+	overflow: hidden;
+	position: relative;
+	transition: all .2s ease-in-out;
+	font-family: "Avenirltstd book";
+}
+.tabss.nav > li > a{
+  padding:0;
+  border:0 none !important;
+  background:none !important;
+  outline:none;
+}
+ul.tabss li.tabss-1{
+  margin-left:0;
+}
+ul.tabss li.tabss-4{
+  margin-right:0;
+}
+
+.tab_last { 
+  /* border-right: 1px solid #333;  */
+}
+
+ul.tabss li:hover {
+	background-color: #F5f5f5;
+	color: #333;
+}
+
+ul.tabss li.active,
+ul.tabss li.tab-active {
+	background-color: #f5f5f5;
+	border:1px solid #CCC;
+	color: #000;
+	display: block;
+	/* transform: scale(1.1); */
+	position:relative;
+	z-index: 1;
+  border-bottom:0 none;
+  margin-bottom:-31px;
+}
+
+.story .ul.tabss li.tab-active {
+  background-color: none;
+}
+
+ul.tabss h2{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+}
+.tabss p{
+	font-weight: 900;
+	display: block;
+	margin-top:25px;
+  padding-bottom:10px;
+	font-size: 14px;
+  text-transform: uppercase;
+}
+.tab_container {
+	border-top: none;
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #fff;
+	overflow: auto;
+  position: relative;
+  z-index: 0;
+  margin-top:30px;
+  border:1px solid #CCC;
+}
+/* .story .tab_container {
+  border:0 none;
+  margin:0;
+  padding: 2px 2px 0;
+  background: #3577b7;
+} */
+.tab_content{
+  padding: 20px 0 0;
+	background-color: #f5f5f5;
+  text-align: center;
+}
+/* .story .tab_content {
+  padding: 0;
+  background-color: none;
+} */
+.tab_content .bg-img {
+  height:300px;
+}
+#tab1 .bg-img{
+  background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/MOBILE_Access_Digital_Tickets_210916.png") no-repeat center top;
+  background-size:contain;
+}
+#tab2 .bg-img{
+  background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/MOBILE_Transfer_Tickets_210916.png") no-repeat center top;
+  background-size:contain;
+}
+
+#tab3 #courtsideexchange .bg-img{
+  background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/1200x1350_MOBILE_COURTSIDE_Ticket_Exchange_210922.png") no-repeat 0 20px;
+  background-size:contain;
+  height:470px;
+}
+#tab3 #mvpexchange .bg-img{
+  background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/1200x1350_MOBILE_Ticket_Exchange_210922.png") no-repeat 0 20px;
+  background-size:contain;
+  height:470px;
+}
+#tab4 .bg-img{
+  background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/MOBILE_Resell_Tickets_210916.png") no-repeat center top;
+  background-size:contain;
+}
+.tab_drawer_heading { display: none; }
+
+.story .tab_container{
+  margin-top:15px;
+  border:0 none;
+}
+.story ul.tabss{
+  margin-top:50px;
+}
+.story ul.tabss li{
+  padding:0;
+  border:0 none;
+  opacity:1;
+}
+.story ul.tabss li > div,
+.story .tab_drawer_heading > div{
+  background:transparent url("https://clippersweb.blob.core.windows.net/city/img/LOGO-DIVIDER.png") no-repeat center top;
+  background-size:1100px;
+  background-position: 65px 18px;
+  margin:0;
+  height:130px;
+  width:100%;
+  border:0;
+}
+.story .tab_drawer_heading > div{
+  width:250px;
+  background-position: 42px 25px;
+}
+.story ul.tabss li.tab-active{
+  border: 0;
+  margin-bottom:-15px;
+}
+.story ul.tabss li:hover{
+  background:transparent;
+  opacity:.8;
+}
+.story ul.tabss li.tab-active:hover{
+  background-color:#f5f5f5;
+  opacity:1;
+}
+.story ul.tabss li.tabss-2 > div{
+  background-position: -260px 14px;
+}
+.story ul.tabss li.tabss-3 > div{
+  background-position: -421px 30px;
+  background-size: 851px;
+}
+.story ul.tabss li.tabss-4 > div{
+  background-position: -912px 14px;
+}
+.story .tab_drawer_heading.tab_drawer_2 > div{
+  background-position: -265px 14px;
+}
+.story .tab_drawer_heading.tab_drawer_3 > div{
+  background-position: -430px 40px;
+  background-size: 851px;
+}
+.story .tab_drawer_heading.tab_drawer_4 > div{
+  background-position: -918px 14px;
+}
+/* Exchange Tabs */
+.exchange-tabs > li{
+  width:50%;
+  float:left;
+}
+.tab_content h3,
+.exchange-tabs > li > a {
+  margin-right: 0;
+  border: 0 none;
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+  font-size:13px;
+  color:#000;
+}
+
+.tab_content h3,
+.exchange-tabs > li.active > a, 
+.exchange-tabs > li.active > a:hover, 
+.exchange-tabs > li.active > a:focus {
+  color: #da1a32;
+  cursor: default;
+  border: 0 none;
+  border-bottom: 3px solid #da1a32;
+  border-bottom-color: #da1a32;
+  background:transparent;
+  outline:none;
+}
+.tab_content h3{
+  padding-bottom:15px;
+}
+
+@media screen and (max-width: 767px) {
+	.tabss {
+		display: none !important;
+	}
+	.tab_container {
+    border:0 none;
+		/* display: block !important; */
+	}
+	.tab_drawer_heading {
+		border:1px solid #CCC;
+		color: #000;
+		margin-top: 25px;
+		padding: 5px 20px 15px;
+		display: block;
+		cursor: pointer;
+		user-select: none;
+		position:relative;
+	}
+  .tab_drawer_heading.open.d_active{
+    border-bottom:0 none;
+  }
+	.tab_drawer_heading .season-header{
+		margin-top:10px;
+		font-size:13px;
+	}
+	.tab_drawer_heading span{
+		display: block;
+	}
+	.tab_drawer_heading .glyphicon{
+		position:absolute;
+		right:15px;
+		top:25px;
+		font-size:22px;
+		transition: transform .4s ease;
+		transform: rotateX(180deg);
+		transform-origin: center center;
+	}
+	.tab_drawer_heading.active .glyphicon{
+		transform: rotate(0);
+	}
+	.d_active {
+		background-color: #f5f5f5;
+	}
+  .tab_content{
+    border:1px solid #CCC;
+    border-top:0 none;
+  }
+  .story .tab_container{
+    background:none;
+  }
+  .story .tab_drawer_heading,
+  .story .tab_content{
+    border:0 none;
+  }
+  .story .tab_drawer_heading{
+    display: flex;
+    justify-content: center;
+    padding:0;
+    margin-top:90px;
+  }
+  .story .tab_drawer_1{
+    margin-top:0;
+  }
+  .story .d_active {
+		background: none;
+    border:0 none;
+	}
+  .story .tab_content{
+    display: block !important;
+    background:none;
+  }
+}
+@media screen and (min-width: 767px) {
+  .tab_content{
+    padding: 20px;
+  }
+  .tab_content .bg-img{
+    height:420px;
+  }
+  #tab1 .bg-img{
+    background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/DESKTOP_Access_Digital_Tickets_210916.png") no-repeat center top;
+    background-size:contain;
+  }
+  #tab2 .bg-img{
+    background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/DESKTOP_Transfer_Tickets_210916.png") no-repeat center top;
+    background-size:contain;
+  }
+  #tab3 #courtsideexchange .bg-img{
+    background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/1600x600_COURTSIDE_Ticket_Exchange_210921.png") no-repeat center top;
+    background-size:contain;
+  }
+  #tab3 #mvpexchange .bg-img{
+    background:transparent url("https://singlegameticketstorage.blob.core.windows.net/ibecblob/img/1600x600_Ticket_Exchange_210921.png") no-repeat center top;
+    background-size:contain;
+  }
+  #tab4 .bg-img{
+    background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/DESKTOP_Resell_Tickets_210916.png") no-repeat center top;
+    background-size:contain;
+  }	
+  .tab_content h3,
+  .exchange-tabs > li > a {
+    font-size:24px;
+  }
+  .story .tab_content{
+    padding: 5px;
+  }
+  .story ul.tabss li > div{
+    background-size:550px;
+    height:75px;
+    background-position: 40px 18px;
+  }
+  .story ul.tabss li.tabss-2 > div {
+    background-position: -124px 14px;
+  }
+  .story ul.tabss li.tabss-3 > div {
+    background-position: -212px 20px;
+    background-size: 451px;
+  }
+  .story ul.tabss li.tabss-4 > div {
+    background-position: -438px 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+	ul.tabss li {
+		padding-top: 30px;
+	}
+  .story ul.tabss li > div{
+    background-size:1100px;
+    height:130px;
+    background-position: 33px 18px;
+  }
+  .story ul.tabss li.tabss-2 > div {
+    background-position: -284px 14px;
+  }
+  .story ul.tabss li.tabss-3 > div {
+    background-position: -421px 35px;
+    background-size: 808px;
+  }
+  .story ul.tabss li.tabss-4 > div {
+    background-position: -940px 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+	ul.tabss li {
+		padding-top: 30px;
+	}
+  .story ul.tabss li > div{
+    background-size:1100px;
+    height:130px;
+    background-position: 65px 18px;
+  }
+  .story ul.tabss li.tabss-2 > div {
+    background-position: -260px 14px;
+  }
+  .story ul.tabss li.tabss-3 > div {
+    background-position: -421px 30px;
+    background-size: 851px;
+  }
+  .story ul.tabss li.tabss-4 > div {
+    background-position: -912px 14px;
+  }
+}

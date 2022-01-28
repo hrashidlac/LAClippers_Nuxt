@@ -1,0 +1,874 @@
+#page, 
+.not-front #content {
+  background-color: #FFF;
+	padding:0 !important;
+}
+h2, h3, h4{
+	font-weight: 100 !important;
+}
+
+h1,
+.learn-more h2,
+.carousel h4{
+	color:#FFF;
+}
+
+.post__body, .field-name-body, .taxonomy-page-node-teaser__body {
+	padding-bottom: 0px !important;
+}
+.header-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top:12px;
+}
+.header-buttons > div{
+  margin:0 30px;
+}
+.header-buttons a{
+  text-align: center;
+  padding:15px 20px 12px;
+  border:1px solid #da1a32;
+  width:180px;
+  display: inline-block;
+  color:#FFF;
+}
+.header-buttons a:hover{
+  text-decoration:none;
+}
+.row-full-nav{
+  background:#EEE;
+}
+.row-full-nav .container {
+	font-family: "Agency fb bold";
+	font-size:18px;
+}
+
+.row-full-nav .container .nav{
+	display: flex;
+	width:650px;
+	align-items: center;
+	justify-content: center;
+	float: right;
+}
+
+.row-full-nav .container .nav a{
+	flex:1;
+	text-align: center;
+	padding:22px 5px 18px;
+	text-transform: uppercase;
+	color:#333;
+	border-bottom:4px solid #EEE;
+}
+.row-full-nav .container .nav a:hover{
+	background:#DDD;
+	text-decoration: none;
+	border-bottom:4px solid #DDD;
+}
+
+.row-full-nav .container .nav a.active{
+	border-bottom:4px solid #da1a32;
+}
+.row-full-testimonials{
+	background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/not-a-member-bg.jpg") no-repeat center center;
+	background-size:cover;
+}
+.learn-more {
+	background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-bg2.jpg") repeat-x center center;
+}
+.section-title{
+	margin-bottom:50px;
+	color:#000;
+	font-size:32px;
+}
+.section-title span{
+	position:relative;
+  display:inline-block;
+  border-bottom:5px solid #000;
+}
+.section-title.want-more{
+	margin-bottom:5px;
+	font-size:38px;
+}
+.section-title.section-title-white{
+	color:#FFF;
+}
+p{
+	font-family: "Avenirltstd book";
+	font-size: 15px;
+}
+h2,h3,h4{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+}
+.buy-now{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+  display: inline-block;
+	margin-top: 15px;
+	color:#FFF;
+  border:1px solid #da1a32;
+	text-transform: uppercase;
+	background:#da1a32;
+	border:0 none;
+	padding:10px 15px 6px;
+	font-size: 20px;
+}
+.buy-now-black{
+  background:#000;
+}
+.buy-now:hover,
+.buy-now:focus,
+.buy-now:active{
+  color:#FFF;
+	background:#00438c;
+  border:1px solid #00438c;
+	text-decoration: none;
+}
+.buy-now .glyphicon{
+  font-size: 12px;
+  margin-left:5px;
+}
+.mvp, .courtside{
+  width:90px;
+  margin: 5px 30px 0 -40px;
+}
+.mvp-asp{
+  width:200px;
+  margin-right:0;
+}
+.courtside{
+  height:auto;
+  margin: 0 0 0 15px;
+}
+.intro-text,
+.intro-text h3{
+  font-family: "Avenirltstd book";
+  text-transform: none;;
+}
+
+.intro-text p{
+  font-size:14px;
+}
+
+/* Learn More  */
+.learn-more .sign-up-form{
+	color:#FFF;
+}
+.learn-more p{
+	font-size:14px;
+}
+.emptyContainer{
+	background:#EEE;
+	padding:15px !important;
+	margin-top:20px;
+	font-size:12px;
+	font-family: "Avenirltstd book" !important;
+}
+.emptyContainer input {
+	border: 1px solid #ddd;
+	height: 25px;
+	margin-top: 0px;
+	text-indent: 4px;
+	width: 100%;
+	color: #000;
+	margin-bottom: 5px;
+}
+.emptyContainer input:focus{
+	border: 1px solid #333;
+}
+.emptyContainer label {
+	color:#000 !important;
+	font-size: 12px !important;
+	margin-bottom:0 !important;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"]{
+  margin-top:10px;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"]:hover{
+	background:#00438c;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"] p{
+	margin:0
+}
+.emptyContainer .columnContainer{
+	padding:0 !important;
+}
+.onFormSubmittedFeedback{
+	background: none !important;
+	width: 100% !important;
+}
+div[data-form-block-id] .onFormSubmittedFeedbackIcon,
+div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackButtonSuccess{
+	display: none !important
+}
+div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage{
+	color:#FFF;
+	font-family: 'Avenir', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+/* Benefits */
+.benefits-item{
+	display: flex;
+	margin-bottom:30px;
+}
+.benefits-item img{
+	margin: 18px 20px 0 0;
+  max-width:30px;
+}
+.benefits-item.cv img{
+	margin: 0px 10px 0 -10px;
+  max-width:50px;
+}
+.courtside-item{
+  float:right;
+  color:#da1a32;
+  padding-top:3px;
+  padding-right:15px;
+}
+.ct-glyph{
+  color:#da1a32;
+  font-size:32px;
+  width:48px;
+  margin-top:-5px;
+}
+/* Carousel */
+.photos{
+  background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/testimonials-bg.jpg") no-repeat center top;
+  background-size:cover;
+  padding:50px 0 100px;
+  margin-bottom:50px;
+}
+.photos .carousel{
+	padding-top:0px;
+	color: #FFF;
+}
+.photos .carousel .byline{
+	font-family: "Agency fb regular";
+	text-transform: uppercase;
+	font-size:21px;
+}
+.photos .carousel .byline span{
+	font-family: "Agency fb bold";
+}
+.photos .carousel-control .icon-prev, 
+.photos .carousel-control .icon-next, 
+.photos .carousel-control .glyphicon-chevron-left, 
+.photos .carousel-control .glyphicon-chevron-right {
+	top: 33%;
+}
+.photos .carousel-control.left,
+.photos .carousel-control.right{
+	background:none;
+}
+.photos .carousel-indicators {
+	bottom: -60px;
+}
+.photos .carousel-indicators li,
+.photos .carousel-indicators .active {
+	width: 18px;
+	height: 18px;
+}
+.photos .carousel-control{
+	width:50px;
+}
+
+.photos .flickity-page-dots .dot {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px;
+  background: none;
+  border:1px solid #FFF;
+  opacity: 1;
+  cursor: pointer;
+}
+.photos .flickity-page-dots .dot.is-selected {
+  background: #FFF;
+}
+.photos .flickity-page-dots{
+  bottom:-60px;
+}
+
+/* Meet the Team */
+.the-team{
+  background:#FFF;
+}
+.team-member {
+  margin-bottom:40px;
+	font-family: "Avenirltstd book";
+  padding:0 10px;
+  height:220px;
+}
+.team-member a{
+  color:#000;
+  font-size:12px;
+}
+.the-team img{
+  max-width:240px;
+  max-width:110px;
+  margin:0 auto;
+}
+.member-name h4{
+	font-family: "Avenirltstd book";
+  margin:25px 0 5px;
+  font-weight:900;
+  font-size:14px;
+}
+.member-title{
+  font-size:12px;
+  margin-bottom:0px;
+}
+
+/* FAQ */
+#accordion h4, 
+#accordion p {
+	font-family: "Avenirltstd book";
+}
+#accordion .panel-title a{
+	display: block;
+	position:relative;
+	padding-right: 50px;
+	font-weight: 900;
+}
+#accordion .panel-default > .panel-heading{
+	background:#FFF;
+	padding: 20px;
+}
+#accordion .panel-title a .glyphicon{
+	position:absolute;
+	right:0;
+	top:0;
+	transition: transform .4s ease;
+	transform: rotate(0);
+	transform-origin: center center;
+}
+#accordion .panel {
+	border-radius: 0;
+}
+#accordion .panel-title a.collapsed .glyphicon{
+	transform: rotateX(180deg);
+}
+#accordion.panel-group .panel + .panel {
+	margin-top: 25px;
+}
+#accordion img{
+  float:right;
+  margin:0 0 30px 30px;
+  max-width:150px;
+}
+
+/* Footer */
+.row-full-footer{
+	background-color: #da1a32;
+	color:#FFF;
+	margin-top:100px;
+	font-family: "Avenirltstd book";
+	font-size:20px;
+}
+
+.row-full-footer .row > div{
+	padding:20px 0;
+}
+
+/* .row-full-footer .contact, */
+.row-full-footer .contact > div{
+	display: flex;
+}
+
+.row-full-footer .contact > div{
+	flex:1;
+}
+
+.row-full-footer .contact .icon{
+	margin:5px 20px 0 0;
+	font-size:42px;
+}
+.row-full-footer .contact .details span{
+	display: block;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.row-full-footer a,
+.row-full-footer a:hover{
+	color:#FFF;
+}
+.seat{
+	margin-top:-6px;
+}
+
+/* Plans Grid */
+.plan-item{
+  display: flex;
+}
+.plans-content .plan-item:nth-child(even){
+  background:#e6e7e8;
+}
+.plans-header{
+  margin-top:30px;
+}
+.plans-footer{
+  margin-bottom:30px;
+}
+.plans-header .col-a,
+.plans-footer .col-a{
+  background:#000;
+}
+.plans-header .col-b,
+.plans-footer .col-b{
+  background:#ced1d3;
+}
+.plans-header .col-c,
+.plans-footer .col-c{
+  background:#d0b267;
+}
+
+.plans-header,
+.plans-footer a {
+  color:#FFF;
+  font-family: "Agency fb bold";
+  font-size:22px;
+  text-transform: uppercase;
+}
+.plans-footer a:hover{
+  cursor: pointer;
+}
+.plans-footer .plan-name{
+  font-family: "Avenirltstd book";
+  font-size:12px;
+  line-height:14px;
+  color:#000;
+  text-transform: none;
+  padding:5px 50px 5px 20px !important;
+}
+
+.plan-name{
+  width:40%;
+  font-family: "Avenirltstd book";
+}
+.plans-footer .plan-item > div{
+  padding:8px 0px 2px;
+}
+
+.plans-header .plan-item > div{
+  padding:10px 0px 6px;
+}
+.plans-content .plan-item > div{
+  padding:8px 20px;
+}
+.plans-content .col-b {
+  position:relative;
+}
+.col-a,
+.col-b,
+.col-c{
+  width:20%;
+  text-align:center;
+}
+
+.col-a,
+.col-c{
+  border-left:1px solid #000;
+  border-right:1px solid #000;
+}
+.plans-content .plan-item.first .col-a:before,
+.plans-content .plan-item.first .col-b:before,
+.plans-content .plan-item.first .col-c:before{
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content:"\A";
+  border-top: 10px solid #000;
+}
+.plans-content .plan-item.first .col-b:before{
+  border-top: 10px solid #ced1d3;
+}
+.plans-content .plan-item.first .col-c:before{
+  border-top: 10px solid #d0b267;
+}
+
+.col-a.ch{
+  background: transparent url("https://clippersweb.blob.core.windows.net/mvp/img/icons/x-black.png") no-repeat 50% 11px;
+  background-size:18px;
+}
+.col-b.ch{
+  background: transparent url("https://clippersweb.blob.core.windows.net/mvp/img/icons/x-grey.png") no-repeat 50% 11px;
+  background-size:18px;
+}
+.col-c.ch{
+  background: transparent url("https://clippersweb.blob.core.windows.net/mvp/img/icons/x-gold.png") no-repeat 50% 11px;
+  background-size:18px;
+}
+
+/* New Carousel */
+.lead-carousel .carousel-cell {
+  width: 100%; 
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lead-carousel .carousel-cell-image{
+  display: block;
+  max-height: 100%;
+  position:relative;
+  max-width:100%;
+}
+.lead-carousel .carousel-cell:before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 1;
+  opacity:1;
+  height:300px;
+  background: rgb(139,139,139);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+.lead-carousel .carousel-caption{
+  text-align:left;
+  left:75px;
+  padding-bottom:0;
+}
+.lead-carousel .carousel-title,
+.lead-carousel .carousel-subtitle{
+  font-family: "Agency fb bold";
+  text-transform: uppercase;
+  font-size:52px;
+  line-height: 56px;
+}
+.lead-carousel .carousel-subtitle{
+  font-size:32px;
+  margin-bottom:5px;
+}
+.lead-carousel .flickity-page-dots {
+  display:none;
+}
+
+.carousel-control{
+  background:none !important;
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+
+@media screen and (max-width: 479px) {
+	.field-name-body > .container{
+		padding-left:15px;
+		padding-right:10px;
+	}
+}
+@media screen and (max-width: 767px) {
+  .lead-carousel .carousel-cell:before{
+    height:60px;
+  }
+  .lead-carousel .carousel-caption p{
+    display: none;
+  }
+  .lead-carousel .carousel-caption{
+    bottom:10px;
+    left:10px;
+  }
+  .lead-carousel .carousel-title,
+  .lead-carousel .carousel-subtitle{
+    font-size:24px;
+    line-height: 26px;
+  }
+  .lead-carousel .carousel-subtitle{
+    font-size:18px;
+    margin-bottom:0;
+  }
+  .plans-content .plan-item.first .col-a,
+  .plans-content .plan-item.first .col-b,
+  .plans-content .plan-item.first .col-c{
+    padding-top:3px;
+  }
+
+  .plans-content .plan-item.first .col-a:before,
+  .plans-content .plan-item.first .col-b:before,
+  .plans-content .plan-item.first .col-c:before{
+  width: 0; 
+  height: 0; 
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  content:"\A";
+  border-top: 6px solid #000;
+}
+  .plans-content .plan-item.first .col-b:before{
+    border-top: 6px solid #ced1d3;
+  }
+  .plans-content .plan-item.first .col-c:before{
+    border-top: 6px solid #d0b267;
+  }
+
+  .plans-footer a {
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .plans-content .plan-item > div {
+    line-height: 15px;
+  }
+  .intro-text .col-xs-12{
+    padding-top:30px;
+    text-align: left !important;
+  }
+  .intro-text h3{
+    font-size:18px;
+    line-height: 26px;
+  }
+  .ph-em{
+    color:#da1a32;
+  }
+  .glyphicon-envelope{
+    margin-left:10px;
+  }
+  .exchange-tabs > li > a{
+    padding: 10px 0;
+  }
+	.section-title{
+		font-size:30px;
+	}
+	h4{
+		font-size:22px;
+	}
+	.row-full-nav{
+		margin-bottom:75px;
+	}
+	.row-full-header,
+  .row-full.photos,
+	.row-full-testimonials,
+  .row-full.learn-more,
+	.row-full-footer{
+		margin:0 -15px;
+	}
+  .responsive-tabs,
+	.row-full.learn-more,
+	.row-full-testimonials,
+  .row-full.the-team,
+  .row-full.photos,
+	#accordion{
+		margin-bottom:70px;
+	}
+	.learn-more {
+    background-size: contain;
+    padding-bottom: 20px;
+	}
+  .row-full.photos{
+    padding:20px;
+  }
+	.photos .carousel img{
+		margin-bottom:40px;
+	}
+	.photos .carousel .byline{
+		font-size:16px;
+	}
+  .photos .photos .carousel{
+    padding: 0 20px;
+  }
+  .row-full-testimonials{
+    padding:50px 0 70px;
+  }
+	.row-full-footer .contact > div:first-child{
+		margin-bottom:30px;
+	}
+  #accordion img{
+    max-width:75px;
+    margin:0 0 10px 10px;
+  }
+  .plans-content .plan-item > div {
+    padding: 8px 4px;
+    font-size:12px;
+  }
+  .plans-header, 
+  .plans-footer a {
+    font-size: 14px;
+  }
+  
+}
+
+@media screen and (min-width: 767px) {
+	.row-full-nav{
+		margin-bottom:40px;
+	}
+	.responsive-tabs,
+	.learn-more,
+	.row-full-testimonials,
+	.benefits,
+	#accordion{
+		margin-bottom:50px;
+	}
+  .benefits{
+    margin-bottom:0;
+  }
+  .photos{
+    margin-top:70px;
+  }
+	.row-full-header{
+		height:511px;
+		background:transparent url("https://clippersweb.blob.core.windows.net/mvp/img/hero.jpg") no-repeat center center;
+		background-size:cover;
+	}
+  .intro-text h3{
+    font-size:24px;
+    margin:0 0 20px;
+  }
+  .intro-text .ph-em{
+    display: block;
+    margin:0px 0 30px;
+    font-size: 17px;
+  }
+  .intro-text .ph-em a{
+    color:#000;
+  }
+  .intro-text .glyphicon{
+    margin:5px 5px 0px 0;
+  }
+  .intro-text .glyphicon-envelope{
+    margin-left:30px;
+  }
+	.learn-more .container{
+		height:543px;
+		background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-bg2.png") no-repeat center center;
+		width: 100%;
+		background-size: 115%;
+		background-position: bottom center;
+	}
+	.header-text{
+		padding-top:170px;
+		color:#FFF;
+		font-family: "Agency FB Wide";
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	.subhead{
+		font-size:40px;
+	}
+	.icon{
+		margin-top:-8px;
+	}
+	.header-text h1{
+		font-size:78px;
+		font-weight: 900;
+		margin-top:18px;
+		margin-bottom:10px;
+	}
+	.nopadding-left {
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+	}
+	.nopadding-right {
+		padding-right: 0 !important;
+		margin-right: 0 !important;
+	}
+	.carousel h4{
+		font-family: "Agency fb bold";
+		font-size:38px;
+	}
+	.main-benefit{
+		padding:40px 20%;
+	}
+	.row .benefits-item div:last-child{
+		padding-right:20%;
+	}
+  .courtside-item{
+    
+  }
+  .photos{
+    padding:50px 0 120px;
+    margin-bottom:50px;
+  }
+  .the-team,
+  .row-full-testimonials{
+    padding:50px 0 70px;
+  }
+	.photos .carousel-control .icon-prev, 
+	.photos .carousel-control .icon-next, 
+	.photos .carousel-control .glyphicon-chevron-left, 
+	.photos .carousel-control .glyphicon-chevron-right {
+		top: 55%;
+	}
+	#accordion .panel-body {
+		padding: 35px;
+		font-size:15px;
+		line-height: 25px;
+		font-family: "Avenirltstd book";
+	}
+	.learn-more .sign-up-form{
+		padding-top:50px;
+	}
+	.row-full-footer .contact{
+		display: flex;
+		text-align:left;
+	}
+  .the-team{
+    background:#FFF;
+  }
+  .team-member {
+    height:auto;
+    margin-bottom:70px;
+  }
+  .the-team img{
+    max-width:240px;
+  }
+  .member-name h4{
+    font-size:16px;
+  }
+  .member-title{
+    font-size:16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+	.row-full-nav .container .nav a {
+    padding-left: 15px;
+		padding-right: 15px;
+	}
+	.learn-more .container{
+		background-size: contain;
+	}
+	.learn-more .sign-up-text{
+		padding-top:100px;
+	}
+	.bigger{
+		font-size:16px;
+		line-height:22px;
+	}
+	.smaller{
+		font-size:13px;
+	}
+	.section-title{
+		font-size:46px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.learn-more .container{
+		width:1170px;
+	}
+  .intro-text h3 span{
+    display: block;
+  }
+}
+
+@media (max-width: 639px){
+	.main-nav-wrapper {
+		margin-bottom: 0 !important;
+	}
+}
+
+
+/* Responsive Flickity */
+/* default full-width cells */
+.carousel-cell {
+  width: 100%;
+}
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .photos .carousel-cell { width: 33.3%; margin-right:50px;}
+  
+}
+  

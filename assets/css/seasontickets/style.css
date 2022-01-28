@@ -1,0 +1,621 @@
+#page, 
+.not-front #content {
+  background-color: #FFF;
+	padding:0 !important;
+}
+h2, h3, h4{
+	font-weight: 100 !important;
+}
+
+h1,
+.learn-more h2,
+.carousel h4{
+	color:#FFF;
+}
+.page-header-ad{
+  display: none;
+}
+.post__body, .field-name-body, .taxonomy-page-node-teaser__body {
+	padding-bottom: 0px !important;
+}
+.row-full-nav{
+  background:#EEE;
+}
+.header-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top:12px;
+}
+.header-buttons > div{
+  margin:0 30px;
+}
+.header-buttons a{
+  text-align: center;
+  padding:15px 5px 12px;
+  border:1px solid #da1a32;
+  width:200px;
+  display: inline-block;
+  color:#FFF;
+  font-weight: 100;
+}
+.header-buttons a:hover{
+  text-decoration:none;
+}
+
+.buy-now{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+  display: inline-block;
+	margin-top: 15px;
+	color:#FFF;
+  border:1px solid #da1a32;
+	text-transform: uppercase;
+	background:#da1a32;
+	border:0 none;
+	padding:10px 15px 6px;
+	font-size: 20px;
+}
+.buy-now-black{
+  background:#000;
+}
+.buy-now:hover,
+.buy-now:focus,
+.buy-now:active{
+  color:#FFF;
+	background:#00438c;
+	text-decoration: none;
+}
+.buy-now .glyphicon{
+  font-size: 12px;
+  margin-left:5px;
+}
+.buy-now-bgr{
+	padding:16px 20px 10px;
+	font-size: 26px;
+}
+.mvp, .courtside{
+  width:90px;
+  margin: 5px 10px 0 30px;
+}
+.mvp-asp{
+  width:200px;
+}
+.intro-text,
+.intro-text h3{
+  font-family: "Avenir";
+  text-transform: none;
+}
+.intro-text p{
+  font-size:14px;
+}
+
+/* Tiles */
+.tiles .tile > div{
+  background: transparent url("https://clippersweb.blob.core.windows.net/kidsclub/img/textture2.jpg");
+  padding:20px;
+  margin-bottom:20px;
+  min-height:290px;
+}
+.tile-lead{
+  display: flex;
+}
+.tile-lead img{
+  width:26px;
+  height:26px;
+  margin-right:12px;
+}
+
+.tile-lead h2{
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.tile p{
+  padding-top:10px;
+  font-size:16px;
+  line-height: 24px;
+}
+
+/* New Carousel Flickity */
+.lead-carousel .carousel-cell {
+  width: 100%; 
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lead-carousel .carousel-cell-image{
+  display: block;
+  max-height: 100%;
+  position:relative;
+  max-width:100%;
+}
+.lead-carousel .carousel-cell:before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index: 1;
+  opacity:1;
+  height:300px;
+  background: rgb(139,139,139);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+.lead-carousel .carousel-caption{
+  text-align:left;
+  left:75px;
+  padding-bottom:0;
+}
+.lead-carousel .carousel-title,
+.lead-carousel .carousel-subtitle{
+  font-family: "Agency fb bold";
+  text-transform: uppercase;
+  font-size:52px;
+  line-height: 56px;
+}
+.lead-carousel .carousel-subtitle{
+  font-size:32px;
+  margin-bottom:5px;
+}
+.lead-carousel .flickity-page-dots {
+  display:none;
+}
+.carousel-control{
+  background:none !important;
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+.inventory {
+  margin-top:50px;
+}
+.inventory p,
+.intuit-dome p.lead-p{
+  margin-top:-20px;
+  font-size:18px;
+}
+.inventory img{
+  margin:40px auto 20px;
+}
+.intuit-dome{
+  margin:50px 0 70px;
+}
+
+.row-full-nav .container {
+	font-family: "Agency fb bold";
+	font-size:18px;
+}
+
+.row-full-nav .container .nav{
+	display: flex;
+	width:650px;
+	align-items: center;
+	justify-content: center;
+	float: right;
+}
+
+.row-full-nav .container .nav a{
+	flex:1;
+	text-align: center;
+	padding:22px 5px 18px;
+	text-transform: uppercase;
+	color:#333;
+	border-bottom:4px solid #EEE;
+}
+.row-full-nav .container .nav a:hover{
+	background:#DDD;
+	text-decoration: none;
+	border-bottom:4px solid #DDD;
+}
+
+.row-full-nav .container .nav a.active{
+	border-bottom:4px solid #da1a32;
+}
+
+.row-full-testimonials{
+	background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/testimonials-bg.jpg") no-repeat center center;
+	background-size:cover;
+}
+.learn-more {
+	background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-bg2.jpg") repeat-x center center;
+}
+.section-title{
+	margin-bottom:50px;
+	color:#000;
+	font-size:32px;
+}
+.section-title span{
+	position:relative;
+  display:inline-block;
+  border-bottom:5px solid #000;
+}
+.section-title.want-more{
+	margin-bottom:5px;
+	font-size:38px;
+}
+.logos{
+	margin-bottom:80px;
+}
+.logo{
+	margin-bottom:30px;
+}
+.bg-grey{
+	background:#EEE;
+}
+p{
+	font-family: "Avenir";
+	font-size: 15px;
+}
+.season-header{
+	font-weight: 900;
+	display: block;
+	margin-top:30px;
+	font-size: 15px;
+}
+.view-faq{
+	text-decoration: underline;
+	display: inline-block;
+}
+.view-faq:hover{
+	text-decoration: none;
+}
+.applies{
+	display:block;
+	margin-top:5px;
+	color:#888;
+}
+h2,h3,h4{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+}
+.why-join-text{
+	padding:10px 0 30px;
+}
+
+/* Learn More  */
+.learn-more .sign-up-form{
+	color:#FFF;
+}
+
+.learn-more p{
+	font-size:14px;
+}
+
+.emptyContainer{
+	background:#EEE;
+	padding:15px !important;
+	margin-top:20px;
+	font-size:12px;
+	font-family: "Avenir" !important;
+}
+.emptyContainer input {
+	border: 1px solid #ddd;
+	height: 25px;
+	margin-top: 0px;
+	text-indent: 4px;
+	width: 100%;
+	color: #000;
+	margin-bottom: 5px;
+}
+
+.emptyContainer input:focus{
+	border: 1px solid #333;
+}
+
+.emptyContainer label {
+	color:#000 !important;
+	font-size: 12px !important;
+	margin-bottom:0 !important;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"]{
+  margin-top:10px;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"]:hover{
+	background:#00438c;
+}
+.emptyContainer div[data-editorblocktype="SubmitButtonBlock"] p{
+	margin:0
+}
+.emptyContainer .columnContainer{
+	padding:0 !important;
+}
+.onFormSubmittedFeedback{
+	background: none !important;
+	width: 100% !important;
+}
+div[data-form-block-id] .onFormSubmittedFeedbackIcon,
+div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackButtonSuccess{
+	display: none !important
+}
+div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage{
+	color:#FFF;
+	font-family: 'Avenir', sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+/* Carousel */
+.carousel{
+	padding-top:40px;
+	color: #FFF;
+}
+.carousel .byline{
+	font-family: "Agency fb bold";
+	text-transform: uppercase;
+	font-size:21px;
+}
+.carousel .byline span{
+	font-family: "Agency fb bold";
+}
+.carousel-control .icon-prev, 
+.carousel-control .icon-next, 
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+	top: 33%;
+}
+.carousel-control.left,
+.carousel-control.right{
+	background:none;
+}
+.carousel-indicators {
+	bottom: -60px;
+}
+.carousel-indicators li,
+.carousel-indicators .active {
+	width: 18px;
+	height: 18px;
+}
+.carousel-control{
+	width:50px;
+}
+
+/* Footer */
+.row-full-footer{
+	background-color: #da1a32;
+	color:#FFF;
+	margin-top:100px;
+	font-family: "Avenir";
+	font-size:20px;
+}
+
+.row-full-footer .row > div{
+	padding:20px 0;
+}
+
+/* .row-full-footer .contact, */
+.row-full-footer .contact > div{
+	display: flex;
+}
+
+.row-full-footer .contact > div{
+	flex:1;
+}
+
+.row-full-footer .contact .icon{
+	margin:5px 20px 0 0;
+	font-size:42px;
+}
+.row-full-footer .contact .details span{
+	display: block;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.row-full-footer a,
+.row-full-footer a:hover{
+	color:#FFF;
+}
+.seat{
+	margin-top:-6px;
+}
+
+@media screen and (max-width: 479px) {
+	.field-name-body > .container{
+		padding-left:15px;
+		padding-right:10px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.section-title{
+		font-size:30px;
+	}
+  .intro-text .col-xs-12{
+    padding-top:30px;
+    text-align: left !important;
+  }
+  .intro-text h3{
+    font-size:18px;
+    line-height: 26px;
+  }
+	h4{
+		font-size:22px;
+	}
+	.row-full-nav{
+		margin-bottom:55px;
+	}
+	.responsive-tabs,
+	.learn-more,
+	.row-full-testimonials{
+		margin-bottom:50px;
+	}
+	.why-join{
+		margin-bottom:70px;
+	}
+	.row-full-header{
+		margin:0 -15px;
+	}
+	.learn-more {
+    background-size: contain;
+    padding-bottom: 20px;
+	}
+
+	.logo{
+		padding:0 10px;
+	}
+	.logos-small .col-md-12{
+		padding:0;
+	}
+	.carousel img{
+		margin-bottom:40px;
+	}
+	.carousel .byline{
+		font-size:16px;
+	}
+	.row-full-footer {
+		margin:0 -15px;
+	}
+	.row-full-footer .contact > div:first-child{
+		margin-bottom:30px;
+	}
+  .lead-carousel .carousel-cell:before{
+    height:60px;
+  }
+  .lead-carousel .carousel-caption p{
+    display: none;
+  }
+  .lead-carousel .carousel-caption{
+    bottom:45px;
+    left:10px;
+  }
+  .lead-carousel .carousel-title,
+  .lead-carousel .carousel-subtitle{
+    font-size:24px;
+    line-height: 26px;
+  }
+  .lead-carousel .carousel-subtitle{
+    font-size:18px;
+    margin-bottom:0;
+  }
+  .lead-carousel .carousel-cell::before{
+    height:0;
+  }
+  .intuit-dome{
+    margin-bottom:0;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .intro-text h3{
+    font-size:24px;
+    line-height: 30px;
+    margin:0 0 45px;
+  }
+	.row-full-nav{
+		margin-bottom:75px;
+	}
+	.responsive-tabs,
+	.learn-more,
+	.row-full-testimonials{
+		margin-bottom:50px;
+	}
+	.why-join{
+		margin-bottom:70px;
+	}
+	.row-full-header{
+		height:510px;
+		background:transparent url("https://clippersweb.blob.core.windows.net/seasontickets/img/hero.jpg") no-repeat center center;
+		background-size:cover;
+	}
+	.learn-more .container{
+		height:543px;
+		background:transparent url("https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-bg2.png") no-repeat center center;
+		width: 100%;
+		background-size: 115%;
+		background-position: bottom center;
+	}
+	.header-text{
+		padding-top:200px;
+		color:#FFF;
+		font-family: "Agency FB Wide";
+		font-weight: 900;
+		text-transform: uppercase;
+	}
+	.subhead{
+		font-size:40px;
+	}
+	.mvp{
+		width:150px;
+	}
+	.icon{
+		margin-top:-8px;
+	}
+	.header-text h1{
+		font-size:78px;
+		font-weight: 900;
+		margin-top:18px;
+		margin-bottom:10px;
+	}
+	.nopadding-left {
+		padding-left: 0 !important;
+		margin-left: 0 !important;
+	}
+	.nopadding-right {
+		padding-right: 0 !important;
+		margin-right: 0 !important;
+	}
+	/* Why Join */
+	.why-join-text{
+		padding:40px 0;
+	}
+	.why-join-text h4,
+	.carousel h4{
+		font-family: "Agency fb bold";
+		font-size:38px;
+	}
+	.carousel-control .icon-prev, 
+	.carousel-control .icon-next, 
+	.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right {
+		top: 55%;
+	}
+	.learn-more .sign-up-form{
+		padding-top:50px;
+	}
+	.row-full-footer .contact{
+		display: flex;
+		text-align:left;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.row-full-nav .container .nav a {
+    padding-left: 15px;
+		padding-right: 15px;
+	}
+	.learn-more .container{
+		background-size: contain;
+	}
+	.learn-more .sign-up-text{
+		padding-top:100px;
+	}
+	.why-join-text{
+		padding:60px 60px 0 40px;
+	}
+	.bigger{
+		font-size:16px;
+		line-height:22px;
+	}
+	.smaller{
+		font-size:13px;
+	}
+	.section-title{
+		font-size:46px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.why-join-text{
+		padding:110px 150px 0 40px;
+	}
+	.learn-more .container{
+		width:1170px;
+	}
+}
+
+@media (max-width: 639px){
+	.main-nav-wrapper {
+		margin-bottom: 0 !important;
+	}
+}
