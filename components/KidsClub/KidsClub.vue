@@ -10,7 +10,7 @@
           <a href="#sign-up" class="scrollactive-item">Sign Up</a>
           <a href="#nominate" class="scrollactive-item">Nominate</a>
           <a href="#connect" class="scrollactive-item">Connect</a>
-          <a class="hidden-xs" href="https://laclippersyouthbasketball.com" target="_blank">Youth Basketball <span class="glyphicon glyphicon-new-window"></span></a>
+          <a class="hidden-xs" href="https://www.clipperscamps.com" target="_blank">Youth Basketball <span class="glyphicon glyphicon-new-window"></span></a>
         </scrollactive>
       </div>
     </div>         
