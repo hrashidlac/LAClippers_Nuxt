@@ -43,7 +43,8 @@ export default {
     { src: "@/plugins/Vue-Flickity-As-Nav-For", ssr: false },
     { src: "@/plugins/Vue-Faq-Accordion", ssr: false },
     { src: "@/plugins/vue-js-modal", ssr: false },
-    { src: "@/plugins/vue-scrollactive", ssr: false }
+    { src: "@/plugins/vue-scrollactive", ssr: false },
+    { src: "@/plugins/postscribe.client.js", ssr: false  }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
