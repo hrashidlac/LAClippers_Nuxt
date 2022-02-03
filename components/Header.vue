@@ -7,7 +7,8 @@
     <NuxtLink  to="/cityedition" class="link">City</NuxtLink >|
     <NuxtLink  to="/ticketcentral" class="link">Ticket Central</NuxtLink >|
     <NuxtLink  to="/membercenter" class="link">Member Center</NuxtLink >|
-    <NuxtLink  to="/kidsclub" class="link">Kids Club</NuxtLink >
+    <NuxtLink  to="/kidsclub" class="link">Kids Club</NuxtLink >|
+    <NuxtLink  to="/test" class="link">Test Page</NuxtLink >
     <br/>
   </div>
 </template>
