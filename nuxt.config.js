@@ -54,13 +54,15 @@ export default {
       '~/components/Miniplans',
       '~/components/SeasonTickets',
       '~/components/City',
-      '~/components/TicketCentral'
+      '~/components/TicketCentral',
+      '~/components/Careers'
     ]
   },
 
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/tailwindcss'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

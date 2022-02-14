@@ -1,29 +1,37 @@
 @font-face {
-  font-family: 'Agency fb bold';
-  src: url('../../assets/fonts/agency-fb-bold.woff2') format('woff2'),
-       url('../../assets/fonts/agency-fb-bold.woff') format('woff'),
-       url('../../assets/fonts/agency-fb-bold.ttf') format('truetype');
-  font-weight: 100;
+  font-family: 'AgencyFB BlackWide';
+  src: url('../fonts/AgencyFB-BlackWide.woff2') format('woff2'),
+      url('../fonts/AgencyFB-BlackWide.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-    font-family: 'Avenir';
-    src: url('../../assets/fonts/AvenirLTStd-Book.eot');
-    src: url('../../assets/fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
-         url('../../assets/fonts/AvenirLTStd-Book.woff2') format('woff2'),
-         url('../../assets/fonts/AvenirLTStd-Book.woff') format('woff'),
-         url('../../assets/fonts/AvenirLTStd-Book.svg#Avenir LT Std 45 Book') format('svg');
+  font-family: 'AgencyFB';
+  src: url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
+      url('../fonts/AgencyFB-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Agency fb wide';
-  src: url('../../assets/fonts/Agency-FB-Black-Wide.eot');
-  src: url('../../assets/fonts/Agency-FB-Black-Wide.eot?#iefix') format('embedded-opentype'),
-       url('../../assets/fonts/Agency-FB-Black-Wide.woff2') format('woff2'),
-       url('../../assets/fonts/Agency-FB-Black-Wide.woff') format('woff'),
-       url('../../assets/fonts/Agency-FB-Black-Wide.svg#AgencyFB') format('svg');
+  font-family: 'Avenir LT Std';
+  src: url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('../fonts/AgencyFB-Regular.woff2') format('woff2'),
+      url('../fonts/AgencyFB-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 
