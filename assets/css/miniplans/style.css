@@ -594,7 +594,8 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
 		font-size:40px;
 	}
 	.icon{
-		margin-top:-8px;
+		margin-top:-20px;
+    display: inline-block;
 	}
 	.header-text h1{
 		font-size:78px;

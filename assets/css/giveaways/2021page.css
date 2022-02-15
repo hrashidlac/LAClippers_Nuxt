@@ -169,7 +169,8 @@ h4.pane-title {
 		text-transform: uppercase;
 	}
 	.icon {
-		margin-top: -8px;
+		margin-top: -20px;
+    display: inline-block;
 	}
 	.header-text h1 {
 		font-size: 66px;
