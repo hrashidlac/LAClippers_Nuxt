@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-[url('https://clippersweb.blob.core.windows.net/careers/img/1440x486-dark-citymap-bg.jpg')] bg-center bg-cover">
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover" style="background-image: url(https://clippersweb.blob.core.windows.net/careers/img/1440x486-dark-citymap-bg.jpg)">
       <h1 class="font-agblackwide">Careers</h1>
       <h2 class="font-agbold">Building a Business. Changing the Game.</h2>
     </div>
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="text-white uppercase flex justify-center items-center h-300 bg-[url('https://www.nba.com/resources/static/team/v2/clippers/img/1440x369-living-header-bg-is-career-200219.jpg')] bg-center bg-cover">
+    <div class="text-white uppercase flex justify-center items-center h-300 bg-center bg-cover" style="background-image: url(https://www.nba.com/resources/static/team/v2/clippers/img/1440x369-living-header-bg-is-career-200219.jpg)">
       <h2 class="font-agblackwide">Living in LA</h2>
     </div>
     
@@ -86,7 +86,7 @@
       </div>
     </div>
 
-    <div class="mt-24 text-white flex flex-col justify-center items-center h-500 bg-[url('https://www.nba.com/resources/static/team/v2/clippers/img/1440x437-join-team-section-bg-is-career-200219.jpg')] bg-center bg-cover">
+    <div class="mt-24 text-white flex flex-col justify-center items-center h-500 bg-center bg-cover" style="background-image: url(https://www.nba.com/resources/static/team/v2/clippers/img/1440x437-join-team-section-bg-is-career-200219.jpg);">
       <h2 class="font-agblackwide uppercase">Join Our Talent Community</h2>
       <p class="lg:w-1/2 text-center">If you don't see a position you're interested in or if you'd like us to consider you for a position at a later time, join our talent community! We'll keep you posted on new openings and upcoming events!</p>
     </div>
