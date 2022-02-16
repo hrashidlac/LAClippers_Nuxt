@@ -1,23 +1,21 @@
 <template>
   <div>     
-    <!-- Full Width Header -->
-    <div class="row-full row-full-header">
-      <img class="img-responsive visible-xs" src="https://clippersweb.blob.core.windows.net/ticketcentral/img/hero-mobile.jpg">
-        <div class="text-center header-text hidden-xs">
-          <div class="subhead">2021 <img class="icon" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"> 2022</div>
-          <h1>Ticket Central</h1>
-          <div class="header-buttons">
-            <div><a href="tel:+2132042900" class="phone-button">213-204-2900</a></div>
-            <div><a href="mailto:fanassist@clippers.com" class="email-button">EMAIL US</a></div>
-          </div>
-        </div>
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/ticketcentral/img/hero.jpg)">
+      <div class="header-year-logo">
+        2021 <img class="icon inline -mt-2 lg:-mt-4 w-10 lg:w-auto" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"> 2022
+      </div>
+      <h1>Ticket Central</h1>
+      <div class="header-buttons">
+        <div><a href="tel:+2132042900" class="phone-button">213-204-2900</a></div>
+        <div><a href="mailto:fanassist@clippers.com" class="email-button">EMAIL US</a></div>
+      </div>
     </div>
     <div class="clearfix"></div>
     <!-- Tiles -->
     <div class="row-full tiles">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
+        <div class="sm:grid sm:grid-cols-3 sm:gap-10">
+          <div>
             <a href="https://www.nba.com/clippers/tickets/seasontickets" class="tile-link">
               <div class="tile tile-seasontickets">
                 <div class="tile-header">2022-2023 Season Tickets</div>
@@ -25,7 +23,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/tickets/miniplans" class="tile-link">
               <div class="tile tile-miniplans">
                 <div class="tile-header">2021-2022 Mini Plans</div>
@@ -33,7 +31,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/singlegametickets" class="tile-link">
               <div class="tile tile-sgt">
                 <div class="tile-header">2021-2022 Single Game Tickets</div>
@@ -41,7 +39,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/groups/tickets" class="tile-link">
               <div class="tile tile-groups">
                 <div class="tile-header">Group Plans</div>
@@ -49,7 +47,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/suites" class="tile-link">
               <div class="tile tile-suites">
                 <div class="tile-header">Suites</div>
@@ -57,7 +55,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/tickets/membercenter" class="tile-link">
               <div class="tile tile-membercenter">
                 <div class="tile-header">Member Center</div>
@@ -65,7 +63,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/giveaways" class="tile-link">
               <div class="tile tile-giveaways">
                 <div class="tile-header">Special Events & Giveaways</div>
@@ -73,7 +71,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/intuitdome" class="tile-link">
               <div class="tile tile-intuit">
                 <div class="tile-header">Intuit Dome Priority Access</div>
@@ -81,7 +79,7 @@
               </div>
             </a>
           </div>
-          <div class="col-sm-4">
+          <div>
             <a href="https://www.nba.com/clippers/gameday" class="tile-link">
               <div class="tile tile-hs">
                 <div class="tile-header">Health & Safety Guidelines</div>
@@ -96,23 +94,23 @@
     <!-- Download app -->
     <div class="row-full download-app">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
+        <div class="sm:grid sm:grid-cols-2 sm:gap-10">
+          <div>
             <img src="https://clippersweb.blob.core.windows.net/ticketcentral/img/download-app.jpg" class="img-responsive">
           </div>
-          <div class="col-sm-6">
+          <div>
             <div class="row">
               <div class="col-sm-10">
                 <h2>MOBILE TICKETING</h2>
                 <p>The LA Clippers use digital tickets for entry to home games. Manage your upcoming games through the LA Clippers App. <br/><a href="https://www.nba.com/clippers/digitaltickets">Learn More</a> </p>
               </div>
             </div>
-            <div class="row">
+            <div class="sm:grid sm:grid-cols-3 sm:gap-10">
               
-              <div class="col-sm-6">
+              <div>
                 <a href="https://itunes.apple.com/us/app/la-clippers/id521606689?mt=8" class="dl-btn"  type="button"><img alt="Download Clippers App from Apple App Store" src="https://www.nba.com/resources/static/team/v2/clippers/apple.png" class="img-responsive"></a>
               </div>
-              <div class="col-sm-6">
+              <div>
                 <a href="https://play.google.com/store/apps/details?id=com.lucidappeal.laclippers&hl=en_US" class="dl-btn"  type="button"><img alt="Download Clippers App for Google Play" src="https://www.nba.com/resources/static/team/v2/clippers/google-play.png" class="img-responsive"></a>
               </div>
             </div>

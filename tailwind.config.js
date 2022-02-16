@@ -3,9 +3,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        agblackwide: ['AgencyFB BlackWide', 'sans-serif'],
-        agregwide: ['AgencyFB RegularWide', 'sans-serif'],
-        agbold: ['AgencyFB', 'sans-serif'],
+        avenir: ['Avenir', 'sans-serif'],
+        agency: ['AgencyFB Regular', 'sans-serif'],
+        agencybold: ['AgencyFB Bold', 'sans-serif'],
+        agencywide: ['AgencyFB BlackWide', 'sans-serif'],
+
       },
       colors:{
         white: '#FFF',
@@ -14,17 +16,38 @@ module.exports = {
         orange: '#fd5214',
       },
       fontSize: {
-        xxs: '1.2rem',
-        xs: '1.3rem',
-        sm: '1.5rem',
-        base: '1.6rem',
-        lg: '1.8rem',
-        xl: '2.2rem',
-        '2xl': '2.7rem',
-        '3xl': '3.6rem',
-        '4xl': '4rem',
-        '5xl': '5rem',
-        '6xl': '6rem'
+        xxs: '10px',
+        xs: '12px',
+        sm: '14px',
+        base: '16px',
+        lg: '18px',
+        xl: '20px',
+        '2xl': '24px',
+        '3xl': '28px',
+        '4xl': '32px',
+        '5xl': '38px',
+        '6xl': '44px',
+        '7xl': '48px',
+        '8xl': '58px',
+        '9xl': '68px',
+        '10xl': '78px'
+      },
+      lineHeight: {        
+        xxs: '10px',
+        xs: '12px',
+        sm: '14px',
+        base: '16px',
+        lg: '18px',
+        xl: '20px',
+        '2xl': '24px',
+        '3xl': '28px',
+        '4xl': '32px',
+        '5xl': '38px',
+        '6xl': '44px',
+        '7xl': '48px',
+        '8xl': '58px',
+        '9xl': '68px',
+        '10xl': '78px'
       },
       height: {
         '300': '300px',        
@@ -51,3 +74,4 @@ module.exports = {
   },
   plugins: [],
 }
+

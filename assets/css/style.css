@@ -1,22 +1,4 @@
 @font-face {
-  font-family: 'Agency FB Wide';
-  src: url('../fonts/AgencyFB-BlackWide.woff2') format('woff2'),
-      url('../fonts/AgencyFB-BlackWide.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Agency fb bold';
-  src: url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
-      url('../fonts/AgencyFB-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Avenirltstd book';
   src: url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
       url('../fonts/AvenirLTStd-Book.woff') format('woff');
@@ -33,6 +15,23 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Agency FB bold';
+  src: url('../fonts/AgencyFB-Bold.woff2') format('woff2'),
+      url('../fonts/AgencyFB-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agency FB Wide';
+  src: url('../fonts/AgencyFB-BlackWide.woff2') format('woff2'),
+      url('../fonts/AgencyFB-BlackWide.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 #special-section-clippers-season-20192020 .content {
     overflow: hidden;

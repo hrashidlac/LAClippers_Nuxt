@@ -18,17 +18,17 @@
     <!--Benefits-->
     <div id="benefits" class="row-full">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-sm-3">
+        <div class="grid grid-cols-2 md:grid-cols-4 sm:gap-10">
+          <div>
             <img src="https://clippersweb.blob.core.windows.net/kidsclub/img/BENEFITS_TRAINING-CONTENT_LA-KIDS-CLUB_1080x1080.jpg" class="img-responsive">
           </div>
-          <div class="col-xs-6 col-sm-3">
+          <div>
             <img src="https://clippersweb.blob.core.windows.net/kidsclub/img/BENEFITS_TICKETS_LA-KIDS-CLUB_1080x1080.jpg" class="img-responsive">
           </div>
-          <div class="col-xs-6 col-sm-3">
+          <div>
             <img src="https://clippersweb.blob.core.windows.net/kidsclub/img/BENEFITS_RETAIL_LA-KIDS-CLUB_1080x1080.jpg" class="img-responsive">
           </div>
-          <div class="col-xs-6 col-sm-3">
+          <div>
             <img src="https://clippersweb.blob.core.windows.net/kidsclub/img/BENEFITS_JR-NBA_LA-KIDS-CLUB_1080x1080.jpg" class="img-responsive">
           </div>
         </div> 
@@ -38,18 +38,18 @@
     <!-- Sign Up -->
     <div id="sign-up" class="row-full sign-up">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-push-3 text-center">
+        <div class="">
+          <div class="text-center">
             <h2 class="section-title">CLIPPER NATION KIDS</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1 text-center">
+        <div class="">
+          <div class="text-center">
             <p>Clipper Nation Kids is a club built for all-stars in the making! Membership is FREE and offers exciting ways your family can stay connected to Clippers basketball. Complete the form below to sign-up. We will confirm your Membership with a welcome email and gift in the mail!</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-8 col-sm-push-2 text-center">
+        <div class="">
+          <div class="text-center">
             <a href="#" class="btn btn-red btn-red-lrg">Register Now</a>
           </div>
         </div>        
@@ -59,19 +59,19 @@
     <!-- Nominate -->
     <div class="row-full nominate">
       <div class="container">
-        <div id="nominate" class="row">
-          <div class="col-sm-6 col-sm-push-3 text-center">
+        <div id="nominate" class="">
+          <div class="text-center">
             <h2 class="section-title" style="text-transform:uppercase;">Kid of the Game Nomination</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1 text-center">
+        <div class="">
+          <div class="text-center">
             <a href="https://www.nba.com/clippers/kidsclub/nominate"><img src="https://www.nba.com/clippers/sites/clippers/files/cn-nnominate.jpg" class="img-responsive"></a>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1 text-center">
+        <div class="">
+          <div class="text-center">
             <a class="btn btn-red" href="https://www.nba.com/clippers/kidsclub/nominate">Nominate Now</a>
           </div>
         </div>
@@ -83,14 +83,14 @@
       <div class="container text-center">
         <!-- Social Section -->
         <h2 class="section-title">Connect With Clipper Nation Kids</h2>
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1"><img class="img-responsive" src="https://clippersweb.blob.core.windows.net/kidsclub/img/kids-club-social.jpg"></div>
+        <div class="">
+          <div class=""><img class="img-responsive" src="https://clippersweb.blob.core.windows.net/kidsclub/img/kids-club-social.jpg"></div>
         </div>
 
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1">
-            <div class="row connect-wrapper">
-              <div class="col-xs-4">
+        <div class="">
+          <div class="">
+            <div class="sm:grid sm:grid-cols-3 sm:gap-10 connect-wrapper">
+              <div>
                 <div class="connect-icon">
                   <a href="https://twitter.com/laclipperskids" target="_blank">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -111,7 +111,7 @@
                   </a>
                 </div>
               </div>
-              <div class="col-xs-4">
+              <div>
                 <div class="connect-icon">
                   <a href="https://www.facebook.com/LAClippersYouthBasketball/" target="_blank">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -127,7 +127,7 @@
                   </a>  
                 </div>
               </div>
-              <div class="col-xs-4">
+              <div>
                 <div class="connect-icon">
                   <a href="https://www.instagram.com/laclipperskids/" target="_blank">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

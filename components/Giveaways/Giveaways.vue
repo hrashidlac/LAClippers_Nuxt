@@ -1,37 +1,24 @@
 <template>
   <div>
-    <div class="banner-container">
-      <!-- Full Width Header -->
-      <div class="row-full row-full-header">
-        <img
-          class="img-responsive visible-xs"
-          src="https://www.nba.com/resources/static/team/v2/clippers/custom/giveaways/img/hero-mobile2.jpg"
-        />
-        <div class="text-center header-text hidden-xs">
-          <div class="subhead">
-            2021
-            <img
-              class="icon"
-              src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"
-            />
-            2022
-          </div>
-          <h1>Special Events<br />& Giveaways</h1>
-        </div>
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover" style="background-image: url(https://www.nba.com/resources/static/team/v2/clippers/custom/giveaways/img/hero6.jpg)">
+      <div class="header-year-logo">
+        2021 <img class="icon inline -mt-2 lg:-mt-4 w-10 lg:w-auto" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"
+        /> 2022
       </div>
-      <div class="clearfix"></div>
+      <h1>Special Events<br />& Giveaways</h1>
     </div>
+  
 
     <div id="special-events-calendar" class="sgt-utms">
       <div class="container">
         <div class="header-filters">
-          <div class="row row-flex">
-            <div class="col-sm-12 col-md-4 col-lg-5">
+          <div class="sm:flex sm:justify-between">
+            <div class="">
               <div class="left-side">
                 <h1><span class="red">Ticket</span> Offers</h1>
               </div>
             </div>
-            <div class="col-sm-12 col-md-8 col-lg-7 filter-dropdowns">
+            <div class="sm:mt-4 filter-dropdowns">
               <div class="right-side">
                 <select
                   class="other-select"
@@ -84,12 +71,12 @@
           </div>
         </div>
         <div class="body-calendar-events">
-          <div class="row row-grid">
+          <div class="sm:grid sm:grid-cols-2 md:grid-cols-3 sm:gap-4 md:gap-10">
             <div
               v-for="giveaway in giveaways"
               :class="giveaway.gameCount"
               :key="giveaway.gid"
-              class="responsive-card card col-sm-12 col-md-6 col-lg-4"
+              class="responsive-card card"
             >
               <!--Has Product Image-->
               <div v-if="giveaway.giveawayImageWide" class="has-product">

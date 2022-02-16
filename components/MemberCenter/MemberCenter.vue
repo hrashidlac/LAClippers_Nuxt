@@ -1,14 +1,11 @@
 <template>
   <div>
-    <div class="row-full row-full-header">
-    <img class="img-responsive visible-xs" src="https://clippersweb.blob.core.windows.net/mvp/img/Hero-Mobile-v2.jpg">
-      <div class="text-center header-text hidden-xs">
-        <h1>Member Center</h1>
-        <div class="header-buttons">
-          <img class="mvp mvp-asp" src="https://clippersweb.blob.core.windows.net/mvp/img/mvp_aspiration_horizontal_wht2.png" style="width:200px;">
-          <div><a href="#" class="faq-button buy-now">MVP FAQ</a></div>
-          <div><a href="https://fanaccount.axs.com/?skin=clippers" target="_blank" class="buy-now buy-now-black">MEMBER LOGIN <span class="glyphicon glyphicon-new-window"></span></a></div>
-        </div>
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/mvp/img/hero.jpg)">
+      <h1>Member Center</h1>
+      <div class="flex">
+        <img class="mvp mvp-asp" src="https://clippersweb.blob.core.windows.net/mvp/img/mvp_aspiration_horizontal_wht2.png" style="width:200px;">
+        <div><a href="#" class="faq-button buy-now">MVP FAQ</a></div>
+        <div><a href="https://fanaccount.axs.com/?skin=clippers" target="_blank" class="buy-now buy-now-black">MEMBER LOGIN <span class="glyphicon glyphicon-new-window"></span></a></div>
       </div>
     </div>
     <div class="row-full row-full-nav hidden-xs">

@@ -1,14 +1,13 @@
 <template>
   <div>     
-    <div class="row-full row-full-header">
-      <img class="img-responsive visible-xs" src="https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/hero-mobile.jpg">
-        <div class="text-center header-text hidden-xs">
-          <div class="subhead">2021 <img class="icon" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"> 2022</div>
-          <h1>Mini Plans</h1>
-          <h2>Starting at $450</h2>
-        </div>
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/hero.jpg)">
+      <div class="header-year-logo">
+        2021 <img class="icon inline -mt-2 lg:-mt-4 w-10 lg:w-auto" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"> 2022
+      </div>
+      <h1>Mini Plans</h1>
+      <h2 class="mt-4">Starting at $450</h2>
     </div>
-    <div class="row-full row-full-nav hidden-xs">
+    <!-- <div class="row-full row-full-nav hidden-xs">
       <div class="container">
         <div class="nav">
           <a href="https://www.nba.com/clippers/tickets/seasontickets">Season Tickets</a>
@@ -17,13 +16,13 @@
           <a href="https://www.nba.com/clippers/groups/tickets">Group Tickets</a>       
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="clearfix"></div>
     <!-- Intro -->
     <div class="container">
       <div class="intro-text">
-        <div class="row">
-          <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center aos-item" data-aos="fade-up">
+        <div class="sm:grid sm:grid-cols-6">
+          <div class="sm:col-start-2 sm:col-span-4 text-center aos-item" data-aos="fade-up">
             <h3><span>2021-22 Mini Plans</span> include 10 incredible games throughout the season.</h3>
             <p>Mini Plans offer flexibility and will secure your seats to some of the best games of the season. 
             Key matchups for each plan can be found below, the full plans will be available once 
@@ -96,31 +95,29 @@
       <!-- Exclusive Benefits -->
       <div class="benefits">
         <div><h2 class="text-center section-title"><span>Exclusive Benefits</span></h2></div>        
-        <div class="row">
-          <div class="col-sm-6 benefits-item">
+        <div class="sm:grid sm:grid-cols-2 gap-10">
+          <div class="benefits-item">
             <div><img src="https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/icons/managing-tickets.png"></div>
             <div>
               <h3>MANAGING YOUR TICKETS HAS NEVER BEEN EASIER </h3>
               <p>With Clippers digital ticketing, you can transfer or resell the games you can’t make in a few simple clicks.</p>
             </div>
           </div>
-          <div class="col-sm-6 benefits-item">
+          <div class="benefits-item">
             <div><img src="https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/icons/playoff-priority.png" alt="Playoff Priority"></div>
             <div>
               <h3>PRIORITY PRESALE ACCESS</h3>
               <p>Mini Plans come with presale access to big regular season games, and priority privileges to 2022 Playoff tickets.</p>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6 benefits-item">
+          <div class="benefits-item">
             <div><img src="https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/icons/member-events.png" alt="Member Events"></div>
             <div>
               <h3>GUARANTEED SEATS & FLEXIBLE PAYMENT</h3>
               <p>Enjoy the same seats for all 10 games in your Mini Plan for the ’21-22 season. Mini Plans also offer flexible payment schedules.</p>
             </div>
           </div>
-          <div class="col-sm-6 benefits-item">
+          <div class="benefits-item">
             <div><img src="https://www.nba.com/resources/static/team/v2/clippers/custom/miniplans/img/icons/discounts.png" alt="Member Savings"></div>
             <div>
               <h3>MERCHANDISE SAVINGS</h3>
@@ -150,9 +147,9 @@
     <!-- Contact -->
     <div class="row-full row-full-footer">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-offset-1 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3 contact">
-            <div>
+        <div class="">
+          <div class="sm:grid sm:grid-cols-6  contact">
+            <div class="">
               <div class="icon">
                 <a href="tel:+2132042900"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
               </div>
