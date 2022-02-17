@@ -1,7 +1,42 @@
+@font-face {
+  font-family: 'Avenirltstd book';
+  src: url('../../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+      url('../../fonts/AvenirLTStd-Book.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AgencyFB';
+  src: url('../../fonts/AgencyFB-Regular.woff2') format('woff2'),
+      url('../../fonts/AgencyFB-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agency FB bold';
+  src: url('../../fonts/AgencyFB-Bold.woff2') format('woff2'),
+      url('../../fonts/AgencyFB-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agency FB Wide';
+  src: url('../../fonts/AgencyFB-BlackWide.woff2') format('woff2'),
+      url('../../fonts/AgencyFB-BlackWide.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 .card{
   margin-top:40px;
   height:580px;
-  font-family: "Agency fb wide";
+  font-family: "Agency FB Wide";
   color:#000;
 }
 
@@ -138,20 +173,20 @@
 .card-bottom .attendance{
   font-size: 18px;
   text-transform: uppercase;
-  font-family: 'Agency fb bold';
+  font-family: 'AgencyFB';
   padding: 16px 25px 0;
-  height: 45px;
   line-height: 19px;
+  margin-bottom:10px;
 }
 .card-bottom .btn{
-	background:#da1a32;
+	/* background:#da1a32;
 	border-radius: 0;
 	font-size: 26px;
 	line-height: 20px;
 	padding: 12px 12px 8px;
   font-family: "Agency fb bold";
 	text-transform: uppercase;
-  margin-top:20px;
+  margin-top:20px; */
 }
 .card-bottom .btn-red{
 	color:#FFF;

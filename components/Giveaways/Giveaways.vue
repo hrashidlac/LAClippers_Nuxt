@@ -15,7 +15,7 @@
           <div class="sm:flex sm:justify-between">
             <div class="">
               <div class="left-side">
-                <h1><span class="red">Ticket</span> Offers</h1>
+                <h2 class="font-agencywide lg:text-5xl mt-3"><span class="text-red">TICKET</span> OFFERS</h2>
               </div>
             </div>
             <div class="sm:mt-4 filter-dropdowns">
@@ -61,7 +61,7 @@
 
                 <button
                   type="button"
-                  class="other-select btn btn-default pull-left filterReset"
+                  class="other-select btn pull-left filterReset"
                   @click="resetFilter"
                 >
                   Reset Filter
@@ -165,7 +165,7 @@
                   <a
                     type="button"
                     target="_blank"
-                    class="btn btn-red giveaway"
+                    class="btn giveaway"
                     :class="giveaway.eventClass"
                     :href="giveaway.eventTicketLink"
                     >GET TICKETS</a

@@ -148,7 +148,7 @@
                           </h3>
                           <a
                             v-if="game.isPreseason"
-                            class="pre btn btn-primary btn-indicator"
+                            class="pre btn btn-indicator"
                             href="https://www.google.com/search?q=clippers+courtside+mvp&oq=clippers&aqs=chrome.1.69i57j69i59j69i60l3.2126j0j7&sourceid=chrome&ie=UTF-8"
                             >PRESEASON</a
                           >
@@ -239,7 +239,7 @@
                     <div class="right-side">
                       <div class="group-1 buy single-game-btn-container">
                         <a
-                          class="btn btn-primary btn-rounded"
+                          class="btn"
                           :href="game.ticketInfo.axs"
                           target="_blank"
                           >GET TICKETS</a
@@ -477,4 +477,4 @@ export default {
   },
 }
 </script>
-<style src="../../assets/css/style.css" scoped></style>
+<style src="../../assets/css/singlegametickets/style.css" scoped></style>

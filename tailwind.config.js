@@ -1,6 +1,14 @@
 module.exports = {
   content: [],
   theme: {
+    container: {
+      screens: {
+          'sm': '640px',
+          'md': '768px',
+          'lg': '992px',
+          'xl': '1170px',
+      }
+    },
     extend: {
       fontFamily: {
         avenir: ['Avenir', 'sans-serif'],
@@ -12,7 +20,8 @@ module.exports = {
       colors:{
         white: '#FFF',
         black: '#000',
-        red: '#F00',
+        red: '#da1a32',
+        blue: '#00438c',
         orange: '#fd5214',
       },
       fontSize: {
@@ -53,21 +62,20 @@ module.exports = {
         '300': '300px',        
         '500': '500px',      
       },
-      screens: {
-        xs: '480px',
-        sm: '768px',
-        md: '992px',
-        lg: '1280px',
-        xl: '1500px'
-      },
+      // screens: {
+      //   xs: '480px',
+      //   sm: '768px',
+      //   md: '992px',
+      //   lg: '1170px',
+      //   xl: '1500px'
+      // },
       container: {
         center: true,
         padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '6rem',
+          DEFAULT: '15px',
+          sm: '15px',
+          lg: '15px',
+          xl: '15px',
         },
       },
     },

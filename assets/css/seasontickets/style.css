@@ -120,9 +120,9 @@ h1,
 .lead-carousel .carousel-cell {
   width: 100%; 
   background: transparent;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 .lead-carousel .carousel-cell-image{
   display: block;
@@ -146,6 +146,12 @@ h1,
   text-align:left;
   left:75px;
   padding-bottom:0;
+  position:absolute;
+  right: 20%;
+  bottom: 20px;
+  z-index: 10;
+  padding-top: 20px;
+  color: #fff;
 }
 .lead-carousel .carousel-title,
 .lead-carousel .carousel-subtitle{

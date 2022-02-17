@@ -99,3 +99,6 @@
             opacity: 1;
             transition: opacity .15s;
         }
+        .tooltip img{
+          margin:8px auto;
+        }

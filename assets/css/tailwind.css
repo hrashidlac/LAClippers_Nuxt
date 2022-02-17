@@ -25,6 +25,9 @@
   .header-year-logo{
     @apply text-xl leading-xl md:text-2xl md:leading-2xl lg:text-6xl lg:leading-6xl font-agencywide text-center mb-4 md:mb-6;
   }
+  .btn{
+    @apply bg-red hover:bg-blue font-agencybold text-white px-6 pt-3 pb-2 uppercase text-xl inline-block;
+  }
 }
 @font-face {
   font-family: 'Avenir';
@@ -59,10 +62,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-
-
-
 .container::before{
   display: none !important;
 }

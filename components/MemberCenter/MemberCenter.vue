@@ -47,64 +47,57 @@
     <div class="clearfix responsive-tabs"></div>
     <div class="benefits container">
       <div><h2 class="text-center section-title"><span>Core Benefits</span></h2></div>        
-      <div class="row">
-        <div class="col-sm-6 benefits-item">
+      <div class="sm:grid sm:grid-cols-2 sm:gap-16">
+        <div class="benefits-item">
           <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/playoff-priority.png" alt="Playoff Priority"></div>
           <div>
             <h3>PRIORITY ACCESS TO PLAYOFF TICKETS</h3>
             <p>Your MVP Membership guarantees you first-in-line access to ticket presales. </p>
           </div>
         </div>
-        <div class="col-sm-6 benefits-item">
+        <div class="benefits-item">
           <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/ticket.png"></div>
           <div>
             <h3>MANAGING YOUR TICKETS HAS NEVER BEEN EASIER </h3>
             <p>With Clippers digital ticketing, you can transfer or resell the games you can't make in just a few simple clicks.  </p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 benefits-item">
+        <div class="benefits-item">
           <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/managing-tickets.png"></div>
           <div>
             <h3>Seat Relocation</h3>
             <p>Our Members receive first-in-line access to seat upgrades for next season.</p>
           </div>
         </div>
-        <div class="col-sm-6 benefits-item">
+        <div class="benefits-item">
           <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/member-events.png" alt="Member Events"></div>
           <div>
             <h3>MEMBER EVENTS AND EXPERIENCES</h3>
             <p>Enjoy exclusive invites to special events with local partners, players, and coaches.</p>
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 benefits-item">
+        <div class="benefits-item">
           <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/surprise.png" alt="Account Manager"></div>
           <div>
             <h3>Special Event Items</h3>
             <p>Access to purchase <a href="https://www.nba.com/clippers/specialevents">special event items</a> before the season begins so you don't miss out on the limited-stock keepsakes and gear from the season.</p>
-          </p>
-        </div>
+          </div>
       </div>
-      <div class="col-sm-6 benefits-item">
+      <div class="benefits-item">
         <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/red-carpet.png" alt="Row 1 Benefit"></div>
         <div>
           <h3>Open Practice Event</h3>
           <p>Celebrate the upcoming season with fellow MVP Members, Players, and Coaches.</p>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 benefits-item">
+      <div class="benefits-item">
         <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/red-carpet.png" alt="Row 1 Benefit"></div>
         <div>
           <h3>Member Gifting</h3>
           <p>Members will receive exclusive gifting throughout key moments of the year including City Edition reveal, start of the Regular season and Playoffs.</p>
         </div>
       </div>
-      <div class="col-sm-6 benefits-item">
+      <div class="benefits-item">
         <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/tags-outline.png" alt="Account Manager"></div>
         <div>
           <h3>Clippers Fan Shop Discount</h3>
@@ -113,16 +106,14 @@
             1-3 years / 10%</p>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 benefits-item cv">
+      <div class="benefits-item cv">
         <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/cv.png" alt="Court Vision"></div>
         <div>
           <h3>Clippers Courtvision</h3>
           <p>Watch your Clippers play home or away with advanced stats through a free Clippers CourtVision subscription.</p>
         </div>
       </div>
-      <div class="col-sm-6 benefits-item">
+      <div class="benefits-item">
         <div><img src="https://clippersweb.blob.core.windows.net/mvp/img/icons/clap.png" alt="Private Entrance"></div>
         <div>
           <h3>In Game Experiences</h3>
@@ -253,10 +244,10 @@
     <!-- Learn More -->
     <div class="clearfix"></div>
     <div class="row-full learn-more">
-      <img class="img-responsive visible-xs aos-item" data-aos="fade-up" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-mobile2.jpg">
+      <!-- <img class="img-responsive visible-xs aos-item" data-aos="fade-up" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/learn-more-mobile2.jpg"> -->
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-5 col-md-4 col-md-offset-6 sign-up-form aos-item" data-aos="fade-up">
+        <div class="sm:flex sm:justify-end">
+          <div class="sign-up-form aos-item" data-aos="fade-up">
             <h2 class="text-center section-title want-more">Want to Learn More?</h2>
             <p class="text-center">Complete the form below and we'll get in touch!</p>
             <div data-form-block-id="60fc0d57-53ee-eb11-bacb-00224809a9ae"></div> <script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.74.1038.0"></script> <div id="dfzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI"></div><script src="https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.74.1038.0"></script><div class="d365-mkt-config" style="display:none" data-website-id="fzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI" data-hostname="aa8d20baa12c40e281518e9e92b636ad.svc.dynamics.com"></div>
@@ -274,80 +265,74 @@
     <div class="row-full the-team text-center container">
       <h2 class="section-title"><span>Meet the Team</span></h2>
       <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+        <div class="grid grid-cols-2 sm:grid-cols-3">
+          <div class="aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshot-anderson.jpg" loading=lazy>
             <div class="member-name"><h4>Derek Anderson</h4></div>
             <div class="member-title">Manager, Membership Services</div>
             <div class="member-email"><a href="mailto:danderson@clippers.com">danderson@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-bleier.jpg" loading=lazy>
             <div class="member-name"><h4>Ryan Bleier</h4></div>
             <div class="member-title">Courtside Account Manager</div>
             <div class="member-email"><a href="mailto:rbleier@clippers.com">rbleier@clippers.com</a></div>   
           </div>            
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-feigin.jpg" loading=lazy>
             <div class="member-name"><h4>Dani Feigin</h4></div>
             <div class="member-title"> Courtside Account Manager</div>
             <div class="member-email"><a href="mailto:dfeigin@clippers.com"> dfeigin@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-hankins.jpg" loading=lazy>
             <div class="member-name"><h4> Channing Hankins</h4></div>
             <div class="member-title">Premium Account Manager </div>
             <div class="member-email"><a href="mailto:chankins@clippers.com"> chankins@clippers.com</a></div>    
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-rivas.jpg" loading=lazy>
             <div class="member-name"><h4> Jaslin Rivas</h4></div>
             <div class="member-title"> Premium Account Manager</div>
             <div class="member-email"><a href="mailto:jrivas@clippers.com">jrivas@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-kuska.jpg" loading=lazy>
             <div class="member-name"><h4> Katie Kuska</h4></div>
             <div class="member-title"> Premium Account Manager</div>
             <div class="member-email"><a href="mailto:kkuska@clippers.com">kkuska@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-arellano.jpg" loading=lazy>
             <div class="member-name"><h4>Grant Arellano</h4></div>
             <div class="member-title">Account Manager</div>
             <div class="member-email"><a href="mailto:garellano@clippers.com">garellano@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-garner.jpg" loading=lazy>
             <div class="member-name"><h4>Vanessa Garner</h4></div>
             <div class="member-title"> Account Manager</div>
             <div class="member-email"><a href="mailto:vgarner@clippers.com">vgarner@clippers.com</a></div>   
           </div>            
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-london.jpg" loading=lazy>
             <div class="member-name"><h4>Korben London</h4></div>
             <div class="member-title"> Account Manager</div>
             <div class="member-email"><a href="mailto:klondon@clippers.com">klondon@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-lopex.jpg" loading=lazy>
             <div class="member-name"><h4> Natalia Lopez</h4></div>
             <div class="member-title">Account Manager  </div>
             <div class="member-email"><a href="mailto:nlopez@clippers.com">nlopez@clippers.com</a></div>   
-          </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
-            <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-simeone.jpg" loading=lazy>
-            <div class="member-name"><h4>Joe Simeone</h4></div>
-            <div class="member-title"> Account Manager</div>
-            <div class="member-email"><a href="mailto:jsimeone@clippers.com">jsimeone@clippers.com</a></div>   
-          </div>            
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          </div>         
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-crosby.jpg" loading=lazy>
             <div class="member-name"><h4>Noelle Crosby</h4></div>
             <div class="member-title">New Membership & Event Specialist</div>
             <div class="member-email"><a href="mailto:ncrosby@clippers.com">ncrosby@clippers.com</a></div>   
           </div>
-          <div class="col-xs-6 col-sm-4 team-member aos-item" data-aos="fade-up">
+          <div class="team-member aos-item" data-aos="fade-up">
             <img class="img-responsive " src="https://clippersweb.blob.core.windows.net/mvp/img/headshots-geronimo.jpg" loading=lazy>
             <div class="member-name"><h4> Shawn Geronimo</h4></div>
             <div class="member-title"> Membership Services</div>

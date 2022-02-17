@@ -190,4 +190,12 @@ export default {
     background-position: -912px 14px;
   }
 }
+
+.tab-content .tab-pane{
+  display: none;
+}
+
+.tab-content .tab-pane.active{
+  display: block;
+}
 </style>
