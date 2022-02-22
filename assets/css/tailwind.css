@@ -28,6 +28,15 @@
   .btn{
     @apply bg-red hover:bg-blue font-agencybold text-white px-6 pt-3 pb-2 uppercase text-xl inline-block;
   }
+  .btn-sm{
+    @apply px-4 pt-2 pb-1 text-lg;
+  }
+  .btn-outline{
+    @apply border border-white bg-transparent hover:bg-white hover:text-black hover:border-black;
+  }
+  p{
+    @apply mb-3
+  }
 }
 @font-face {
   font-family: 'Avenir';

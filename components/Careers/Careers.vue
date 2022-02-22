@@ -2,7 +2,10 @@
   <div>
     <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/careers/img/1440x486-dark-citymap-bg.jpg)">
       <h1 >Careers</h1>
-      <h2 class="mt-4">Building a Business. Changing the Game.</h2>
+      <h2 class="my-4">Building a Business. Changing the Game.</h2>
+      <NuxtLink  to="/careers/openpositions" class="btn mb-4">View Open Positions</NuxtLink>
+      <a href="https://pages.beamery.com/nbateamcareers/page/clipperstalentcommunity" target="_blank" class="btn">Join Our Talent Community</a>
+      
     </div>
     <div class="container py-20 grid grid-cols-1 sm:grid-cols-3 gap-12">
       <div>
@@ -13,6 +16,9 @@
         </div>
         
         <p>Led by Chairman Steve Ballmer, the Clippers are committed to the city of Los Angeles and through the LA Clippers Foundation, provide resources and opportunities that make a positive difference toward leveling the playing field for youth in Southern California. Visit the Clippers online at <a href="https://nba.com/clippers">www.clippers.com</a> or follow them on social media <a href="https://twitter.com/LAClippers">@LAClippers</a>. The LA Clippers' new home, Intuit Dome, in Inglewood, will include a world-class facility uniquely designed to prioritize fan comfort and ease, player experience, home court advantage and community. The project will open for the start of the 2024-25 NBA season.</p>
+        <div class="flex justify-center mt-4">
+          <NuxtLink  to="/careers/clippers" class="btn btn-sm mt-4">Learn More</NuxtLink>
+        </div>
       </div>
       <div>
         <div class="flex flex-col justify-center items-center mb-12">
@@ -22,6 +28,9 @@
         </div>
         
         <p>The Agua Caliente Clippers of Ontario are an American professional basketball team of the NBA G League that began play for the 2017-18 season. The franchise is owned by and affiliated with the LA Clippers of the National Basketball Association (NBA). The team is based in Ontario, California and play their home games at Toyota Arena. Follow them on social media <a href="https://twitter.com/acclippers?lang=en">@ACClippers</a>.</p>
+        <div class="flex justify-center mt-4">
+          <a href="https://aguacaliente.gleague.nba.com/" target="_blank" class="mt-4 btn btn-sm">View Site</a>
+        </div>
       </div>
       <div>
         <div class="flex flex-col justify-center items-center mb-12">
@@ -31,6 +40,10 @@
         </div>
         
         <p>The Forum Presented by Chase is a multi-purpose indoor arena adjacent to Los Angeles. The Forum has served over five decades as one of the biggest venues in the world for music, sports, and amazing events. It is run by talented and passionate music industry leaders who have created a world-class live entertainment venue and a culture that prioritizes the artist, their fans, and their music. The Forum is the only arena-sized venue in the country dedicated to music and entertainment. With the Forum hosting almost 100 events yearly, some of these events include some of the most iconic names in music, as well as several special events such as award shows, mixed martial arts, and boxing. Follow them on social media <a href="https://twitter.com/TheForum">@TheForum</a>.</p>
+        <div class="flex justify-center mt-4">
+          <a href="https://thelaforum.com/" target="_blank" class="mt-4 btn btn-sm">View Site</a>
+        </div>
+        
       </div>
     </div>
 
@@ -89,6 +102,8 @@
     <div class="mt-24 text-white flex flex-col justify-center items-center h-500 bg-center bg-cover" style="background-image: url(https://www.nba.com/resources/static/team/v2/clippers/img/1440x437-join-team-section-bg-is-career-200219.jpg);">
       <h2 class="font-agencywide">Join Our Talent Community</h2>
       <p class="lg:w-1/2 text-center">If you don't see a position you're interested in or if you'd like us to consider you for a position at a later time, join our talent community! We'll keep you posted on new openings and upcoming events!</p>
+      <a href="https://pages.beamery.com/nbateamcareers/page/clipperstalentcommunity" target="_blank" class="mt-8 btn btn-outline">Join Now</a>
+      
     </div>
 
    
