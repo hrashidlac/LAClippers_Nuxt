@@ -16,28 +16,28 @@
       <div class="container">
         <div class="sm:grid sm:grid-cols-3 sm:gap-10">
           <div>
-            <a href="https://www.nba.com/clippers/tickets/seasontickets" class="tile-link">
+            <NuxtLink to="/seasontickets" class="tile-link">
               <div class="tile tile-seasontickets">
                 <div class="tile-header">2022-2023 Season Tickets</div>
                 <div class="tile-footer"><span>learn more</span></div>
               </div>
-            </a>
+            </NuxtLink>
           </div>
           <div>
-            <a href="https://www.nba.com/clippers/tickets/miniplans" class="tile-link">
+            <NuxtLink to="/miniplans" class="tile-link">
               <div class="tile tile-miniplans">
                 <div class="tile-header">2021-2022 Mini Plans</div>
                 <div class="tile-footer"><span>learn more</span></div>
               </div>
-            </a>
+            </NuxtLink>
           </div>
           <div>
-            <a href="https://www.nba.com/clippers/singlegametickets" class="tile-link">
+            <NuxtLink to="/singlegametickets" class="tile-link">
               <div class="tile tile-sgt">
                 <div class="tile-header">2021-2022 Single Game Tickets</div>
                 <div class="tile-footer"><span>learn more</span></div>
               </div>
-            </a>
+            </NuxtLink>
           </div>
           <div>
             <a href="https://www.nba.com/clippers/groups/tickets" class="tile-link">
@@ -56,12 +56,12 @@
             </a>
           </div>
           <div>
-            <a href="https://www.nba.com/clippers/tickets/membercenter" class="tile-link">
+            <NuxtLink to="/membercenter" class="tile-link">
               <div class="tile tile-membercenter">
                 <div class="tile-header">Member Center</div>
                 <div class="tile-footer"><span>learn more</span></div>
               </div>
-            </a>
+            </NuxtLink>
           </div>
           <div>
             <a href="https://www.nba.com/clippers/giveaways" class="tile-link">
