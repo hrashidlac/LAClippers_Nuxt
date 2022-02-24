@@ -52,7 +52,7 @@
     </div>
     
     <div class="container mt-24 lg:flex">
-      <div class="lg:w-1/3 text-center"><h2>Location</h2></div>
+      <div class="lg:w-1/3 text-center"><h2 class="mt-4">Location</h2></div>
       <div class="lg:w-2/3 p-4">California is one of the most geographically diverse places in the world with beaches, mountains, and deserts all within driving distance. Los Angeles is at the heart of it all. </div>
     </div>
     <div class="container mt-12 grid grid-cols-1 sm:grid-cols-3 gap-12">
@@ -68,7 +68,7 @@
     </div>
 
     <div class="container mt-24 lg:flex">
-      <div class="lg:w-1/3 text-center"><h2 class="font-agbold uppercase">Food Scene</h2></div>
+      <div class="lg:w-1/3 text-center"><h2 class="mt-4">Food Scene</h2></div>
       <div class="lg:w-2/3 p-4">From food trucks and local favorites to Michelin-starred restaurants, Los Angeles truly offers a global menu with something for everyone to enjoy. </div>
     </div>
     <div class="container mt-12 grid grid-cols-1 sm:grid-cols-3 gap-12">
@@ -84,7 +84,7 @@
     </div>
 
     <div class="container mt-24 lg:flex">
-      <div class="lg:w-1/3 text-center"><h2 class="font-agbold uppercase">Entertainment</h2></div>
+      <div class="lg:w-1/3 text-center"><h2 class="mt-4">Entertainment</h2></div>
       <div class="lg:w-2/3 p-4">With amusement parks and museums around every corner, and concerts and festivals happening regularly, Los Angeles is one of the world's premier destinations for entertainment.</div>
     </div>
     <div class="container mt-12 grid grid-cols-1 sm:grid-cols-3 gap-12">

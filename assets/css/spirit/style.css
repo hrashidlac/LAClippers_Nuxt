@@ -1,0 +1,426 @@
+.container-fluid d-inline-block {
+  justify-content: space-evenly;    
+}
+div.onhover {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+div.onhover:hover {
+  top: -10px;
+}
+
+.img-size {
+   width:100%;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+/* Img Full Width */
+div.img-full img.media-element {
+    width: 100%;
+    height: auto;
+}
+
+.container-fluid d-inline-block {
+     background-color:#000000;
+     padding-top:40px;
+     padding-bottom:40px;
+     margin-top:-10px;
+}
+
+
+
+
+
+
+.panels-flexible-region {
+    width: 100%;
+}
+.front #content, .not-front #content {
+    max-width: 100%;
+}
+.page-header-ad {
+    display: none;
+}
+.not-front #content {
+    padding-top: 0;
+}
+
+/* PAGE NAV */
+
+#page-menu {
+    position: relative;
+    width: 100%;
+    height: 140px;
+}
+.page-logo-area {
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+}
+.page-logo-area img {
+    margin-top: 30px;
+    margin-left: auto;
+}
+.inner-page-menu ul {
+    text-align: right;
+    max-width: 1170px;
+    margin: auto;
+}
+.inner-page-menu li {
+    list-style: none;
+    float: none;
+    display: inline-block;
+    padding: 0 60px;
+    margin-top: 60px;
+}
+.inner-page-menu ul li:nth-child(1), .inner-page-menu ul li:nth-child(2) {
+    float: left;
+}
+.inner-page-menu ul li a {
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* TEAM INTRO */
+#team-intro {
+    background: #222226;
+    font-size: 18px;
+    color: rgba(255, 255, 255, .5);
+    line-height: 28px;
+}
+.intro-copy {
+    max-width: 492px;
+    margin: 60px 0;
+}
+section#team-intro h2 {
+    line-height: 3.4rem;
+}
+section#team-intro h3 {
+    line-height: 2.4rem;
+    margin-top: 30px;
+}
+#team-intro h2, #team-intro h3 {
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.primary-btn {
+    color: rgba(255, 255, 255, .75);
+    background: #c8102e;
+    background: linear-gradient(0deg, rgba(200,16,46,1) 0%, rgba(244,20,56,1) 100%);
+    border: 1px solid #f30d32;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 240px;
+    text-align: center;
+    font-size: 16px;
+}
+.icon-overlay--videos:before, .icon-overlay--photos:before {
+    font-size: 5rem;
+    background: rgba(200, 16, 46, .5);
+    border: none;
+    margin-top: -40px;
+    margin-right: -40px;
+    right: 50%;
+    top: 50%;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding-top: 26px;
+    z-index: 1;
+}
+div#videoModal .modal-dialog {
+    width: 100%;
+    max-width: 1200px;
+}
+
+/* MEET THE TEAM */
+#team {
+    background: #222226;
+    color: rgba(255, 255, 255, .75);
+    background: url(https://www.nba.com/.element/media/2.0/teamsites/clippers/img/1440x530-spirit-team-header-200518.jpg);
+    padding: 180px 0 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    line-height: 28px;
+}
+section#team .container {
+    max-width: 891px;
+}
+#team h2, #team h4 {
+    color: rgba(255, 255, 255, .75);
+    text-transform: uppercase;
+}
+#team h4 {
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+/* DANCER GRID */
+ul#og-grid {
+    max-width: 1400px;
+    padding: 0;
+    margin: auto;
+    margin-top: -90px;
+    text-align: center;
+    list-style: none;
+}
+ul#og-grid li {
+    display: inline-block;
+    width: 24%;
+    height: 460px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background: #000;
+    position: relative;
+}
+ul#og-grid img {
+    width: 100%;
+    margin: auto;
+    opacity: .5;
+    display: block;
+}
+ul#og-grid h2 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    bottom: 10%;
+    display: block;
+    text-transform: uppercase;
+}
+
+/* SOCIAL FOLLOW */
+section#social-promo {
+    background: #222226;
+    color: rgba(255, 255, 255, .75);
+    background: url(https://www.nba.com/.element/media/2.0/teamsites/clippers/spirit/1440x400-spirit-team-follow-bg-200521.jpg);
+    padding: 90px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    line-height: 28px;
+}
+#social-promo h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+section#social-promo .primary-btn {
+    background: #fff;
+    color: #000;
+}
+
+/* AMBASSADOR FOOTER */
+#booking-footer .section-header {
+    background: #222226;
+    color: rgba(255, 255, 255, .75);
+    background: url(https://www.nba.com/.element/media/2.0/teamsites/clippers/spirit/1440x400-spirit-ambassadors-200521.jpg);
+    padding: 90px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#booking-footer .container {
+    max-width: 600px;
+    padding: 60px 0 90px;
+}
+#booking-footer {
+    background: #222226;
+    color: rgba(255, 255, 255, .75);
+    font-size: 18px;
+    line-height: 28px;
+}
+#booking-footer .primary-btn {
+    margin-top: 30px;
+}
+
+/* VIDEO PLAYLIST */
+section#team-videos h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+section#team-videos {
+    background: black;
+}
+.video-playlist-wrapper.cvp-show {
+    max-width: 1200px;
+    margin: auto;
+}
+#team-videos .intro-copy {
+    max-width: 100%;
+}
+.subscribe-btn {
+    margin: 0;
+    background: #c8102e;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 12px;
+    float: right;
+    margin-top: 15px;
+    font-weight: 600;
+    display: inline-block;
+}
+a.subscribe-btn .fa {
+    margin-right: 8px;
+    font-size: 1.8rem;
+}
+
+/* GALLIERIES SECTION */
+#team-galleries {
+    background: #222226;
+    color: rgba(255, 255, 255, .75);
+    padding: 0 0 90px;
+    font-size: 18px;
+    line-height: 28px;
+}
+#team-galleries h2 {
+    color: #fff;
+    text-transform: uppercase;
+}
+#team-galleries .mediaTitle {
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+
+/*  ****MOBILE STYLES****  */
+
+@media (max-width: 768px) {
+h2 {
+    font-size: 1.8rem;
+}
+.text-center {
+    text-align: center;
+    padding: 0 30px;
+}
+
+/* PAGE NAV */
+.page-logo-area {
+    width: 120px;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+    text-align: center;
+}
+.inner-page-menu ul {
+    padding: 0;
+    text-align: center;
+}
+.inner-page-menu ul li:nth-child(1), .inner-page-menu ul li:nth-child(2) {
+    float: none;
+}
+.inner-page-menu li {
+    list-style: none;
+    float: none;
+    display: inline-block;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+
+/* INTRO */
+.intro-copy {
+    max-width: 492px;
+    margin: 60px 0;
+    padding: 0 15px;
+}
+section#team-intro h2 {
+    line-height: 2.4rem;
+}
+#team-intro {
+    font-size: 16px;
+    line-height: 24px;
+}
+#team-intro h2, #team-intro h3 {
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+/* TEAM */
+#team {
+    padding: 30px 0 150px;
+    font-size: 16px;
+    line-height: 24px;
+}
+section#team-intro .intro-copy {
+    padding: 0;
+}
+#team .text-center {
+    text-align: left;
+}
+#team h2 {
+    color: rgba(255, 255, 255, .75);
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+#team h4 {
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+/* DANCER GRID */
+ul#og-grid li {
+    width: 40%;
+    height: 205px;
+}
+
+/* VIDEO */
+.subscribe-btn {
+    font-size: 12px;
+}
+a.subscribe-btn .fa {
+    margin-right: 6px;
+    font-size: 15px;
+}
+
+/* PHOTOS */
+section#team-galleries .icon-overlay {
+    max-width: 240px;
+    margin: 15px auto;
+}
+.icon-overlay--videos:before, .icon-overlay--photos:before {
+    font-size: 3rem;
+    background: rgba(200, 16, 46, .5);
+    border: none;
+    margin-top: -30px;
+    margin-right: -30px;
+    right: 50%;
+    top: 50%;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 17px;
+    z-index: 1;
+}
+#team-galleries .mediaTitle {
+    bottom: 90px;
+}
+
+/* FOOTER */
+#booking-footer .section-header-logo-area img {
+    max-width: 240px;
+    width: 100%;
+}
+}
+@media (max-width: 639px){
+.main-nav-wrapper {
+    margin-bottom: 0 !important;
+}
+}

@@ -10,7 +10,8 @@
     <NuxtLink to="/kidsclub" class="link">Kids Club</NuxtLink>|
     <NuxtLink to="/test" class="link">Test Page</NuxtLink>|
     <NuxtLink to="/careers" class="link">Careers</NuxtLink>|
-    <NuxtLink to="/credo" class="link">Credo</NuxtLink>
+    <NuxtLink to="/credo" class="link">Credo</NuxtLink>|
+    <NuxtLink to="/spirit" class="link">Spirit</NuxtLink>
   </div>
 </template>
 <style scoped>
