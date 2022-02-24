@@ -7,17 +7,7 @@
       <h1>Mini Plans</h1>
       <h2 class="mt-4">Starting at $450</h2>
     </div>
-    <!-- <div class="row-full row-full-nav hidden-xs">
-      <div class="container">
-        <div class="nav">
-          <a href="https://www.nba.com/clippers/tickets/seasontickets">Season Tickets</a>
-          <a href="https://www.nba.com/clippers/tickets/membercenter">Member Center</a>
-          <a href="https://www.nba.com/clippers/tickets/miniplans" class="active">Mini Plans</a>
-          <a href="https://www.nba.com/clippers/groups/tickets">Group Tickets</a>       
-        </div>
-      </div>
-    </div> -->
-    <div class="clearfix"></div>
+    <UtilityTicketSubNav/>
     <!-- Intro -->
     <div class="container">
       <div class="intro-text">

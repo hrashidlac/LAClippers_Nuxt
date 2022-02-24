@@ -51,6 +51,7 @@ export default {
   components: {
     dirs: [
       '~/components',
+      '~/components/Utility',
       '~/components/Miniplans',
       '~/components/SeasonTickets',
       '~/components/City',

@@ -8,16 +8,7 @@
         <div><a href="https://fanaccount.axs.com/?skin=clippers" target="_blank" class="buy-now buy-now-black">MEMBER LOGIN <span class="glyphicon glyphicon-new-window"></span></a></div>
       </div>
     </div>
-    <div class="row-full row-full-nav hidden-xs">
-      <div class="container">
-        <div class="nav">
-          <a href="https://www.nba.com/clippers/tickets/seasontickets">Season Tickets</a>
-          <a href="https://www.nba.com/clippers/tickets/membercenter" class="active">Member Center</a>
-          <a href="https://www.nba.com/clippers/tickets/miniplans">Mini Plans</a>
-          <a href="https://www.nba.com/clippers/groups/tickets">Group Tickets</a>
-        </div>
-      </div>
-    </div>
+    <UtilityTicketSubNav/>
     <!-- Intro -->
     <div class="intro-text container">
       <div class="row">

@@ -23,6 +23,8 @@ module.exports = {
         red: '#da1a32',
         blue: '#00438c',
         orange: '#fd5214',
+        greyeee: "#EEE",
+        greyddd: "#DDD",
       },
       fontSize: {
         xxs: '10px',

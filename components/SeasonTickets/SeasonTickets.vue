@@ -15,16 +15,7 @@
         </div>
       </div> -->
     </div>
-    <!-- <div class="row-full row-full-nav hidden-xs">
-      <div class="container">
-        <div class="nav">
-          <a href="https://www.nba.com/clippers/tickets/seasontickets" class="active">Season Tickets</a>
-          <a href="https://www.nba.com/clippers/tickets/membercenter">Member Center</a>
-          <a href="https://www.nba.com/clippers/tickets/miniplans">Mini Plans</a>
-          <a href="https://www.nba.com/clippers/groups/tickets">Group Tickets</a>
-        </div>
-      </div>
-    </div> -->
+    <UtilityTicketSubNav/>
   <!-- Intro -->
   <div class="container">
     <div class="intro-text">
