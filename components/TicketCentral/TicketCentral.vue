@@ -10,7 +10,7 @@
         <div><a href="mailto:fanassist@clippers.com" class="email-button">EMAIL US</a></div>
       </div>
     </div>
-    <UtilityTicketSubNav/>
+    <TicketSubNav/>
     <!-- Tiles -->
     <div class="row-full tiles">
       <div class="container">

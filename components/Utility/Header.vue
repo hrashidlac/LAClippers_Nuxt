@@ -14,7 +14,9 @@
     <NuxtLink to="/credo" class="link">Credo</NuxtLink>|
     <NuxtLink to="/spirit" class="link">Spirit</NuxtLink>|
     <NuxtLink to="/chuck" class="link">Chuck</NuxtLink>|
-    <NuxtLink to="/announcers" class="link">Announcers</NuxtLink>
+    <NuxtLink to="/announcers" class="link">Announcers</NuxtLink>|
+    <NuxtLink to="/kidclippers" class="link">Kid Clippers</NuxtLink>|
+    <NuxtLink to="/hooptroop" class="link">Hoop Troop</NuxtLink>
   </div>
 </template>
 <style scoped>

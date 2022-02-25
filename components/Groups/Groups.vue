@@ -4,7 +4,7 @@
       <h1>Group Tickets</h1>
       <h2 class="mt-4">Reserve your spot for 2021-22</h2>
     </div>
-    <UtilityTicketSubNav/>
+    <TicketSubNav/>
     <!-- Intro -->
     <div class="container">
       <div class="intro-text">

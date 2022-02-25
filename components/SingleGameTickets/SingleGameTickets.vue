@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <UtilityTicketSubNav/>
+    <TicketSubNav/>
     <div id="special-section-clippers-season-20192020" class="sgt-utms">
       <div class="content">
         <div class="container">

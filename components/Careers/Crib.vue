@@ -45,7 +45,7 @@
           </div>
         </div>
       
-    </flickity>
+      </flickity>
     </div>
   </div>
 </template>

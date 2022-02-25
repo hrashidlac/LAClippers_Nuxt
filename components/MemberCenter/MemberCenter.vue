@@ -8,7 +8,7 @@
         <div><a href="https://fanaccount.axs.com/?skin=clippers" target="_blank" class="buy-now buy-now-black">MEMBER LOGIN <span class="glyphicon glyphicon-new-window"></span></a></div>
       </div>
     </div>
-    <UtilityTicketSubNav/>
+    <TicketSubNav/>
     <!-- Intro -->
     <div class="intro-text container">
       <div class="row">

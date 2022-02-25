@@ -7,7 +7,7 @@
       <h1>Mini Plans</h1>
       <h2 class="mt-4">Starting at $450</h2>
     </div>
-    <UtilityTicketSubNav/>
+    <TicketSubNav/>
     <!-- Intro -->
     <div class="container">
       <div class="intro-text">
