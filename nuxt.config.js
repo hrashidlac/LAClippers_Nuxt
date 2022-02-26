@@ -56,7 +56,15 @@ export default {
       '~/components/SeasonTickets',
       '~/components/City',
       '~/components/TicketCentral',
-      '~/components/Careers'
+      '~/components/Careers',
+      '~/components/Company',
+      '~/components/FanZone',
+      '~/components/FanZone/Chuck',,
+      '~/components/FanZone/Spirit',
+      '~/components/FanZone/HoopTroop',
+      '~/components/FanZone/SlamSquad',
+      '~/components/FanZone/KidClippers',
+      '~/components/FanZone/Announcers'
     ]
   },
 
