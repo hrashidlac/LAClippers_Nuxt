@@ -21,6 +21,9 @@
         <li class="mx-4">
           <NuxtLink to="/fan-zone/announcers">Announcers</NuxtLink>
         </li>
+        <li class="mx-4">
+          <NuxtLink to="/fan-zone/performer-submission">Performer Submission Form</NuxtLink>
+        </li>
       </ul>
     </nav>
     <NuxtChild  />
