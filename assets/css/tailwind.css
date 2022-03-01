@@ -34,6 +34,9 @@
   .btn-outline{
     @apply border border-white bg-transparent hover:bg-white hover:text-black hover:border-black;
   }
+  .btn-outline-dark{
+    @apply border border-black text-black bg-transparent hover:bg-black hover:text-white hover:border-white;
+  }
   p{
     @apply mb-3
   }

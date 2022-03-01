@@ -2,22 +2,22 @@
   <div> 
     <flickity ref="flickity" :options="flickityOptions2" class="carousel">
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-2.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-2.jpg">  
       </div>
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-1.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-1.jpg">  
       </div>
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-4.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-4.jpg">  
       </div>
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-5.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-5.jpg">  
       </div>
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-6.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-6.jpg">  
       </div>
       <div class="carousel-cell">
-        <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/mvp/img/carousel-7.jpg">  
+        <img class="img-responsive" data-flickity-lazyload="https://clippersweb.blob.core.windows.net/mvp/img/carousel-7.jpg">  
       </div>
     </flickity>
   </div>
@@ -30,8 +30,7 @@ export default {
   data() {
     return {
       flickityOptions2: {
-        imagesLoaded: true, 
-        percentPosition: false, 
+        lazyLoad: 1, 
         wrapAround: true
       }
     }

@@ -64,7 +64,10 @@ export default {
       '~/components/FanZone/HoopTroop',
       '~/components/FanZone/SlamSquad',
       '~/components/FanZone/KidClippers',
-      '~/components/FanZone/Announcers'
+      '~/components/FanZone/Announcers',
+      '~/components/Community',
+      '~/components/Community/Education',
+      '~/components/Community/SchoolProgram'
     ]
   },
 

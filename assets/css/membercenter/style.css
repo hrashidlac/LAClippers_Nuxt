@@ -109,12 +109,12 @@ h2,h3,h4{
   border:1px solid #da1a32;
 	text-transform: uppercase;
 	background:#da1a32;
-	border:0 none;
 	padding:10px 15px 6px;
 	font-size: 20px;
 }
 .buy-now-black{
   background:#000;
+  border: 1px solid #000;
 }
 .buy-now:hover,
 .buy-now:focus,
@@ -791,7 +791,7 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
   }
   .the-team,
   .row-full-testimonials{
-    padding:50px 0 70px;
+    padding:50px 0 0;
   }
 	.photos .carousel-control .icon-prev, 
 	.photos .carousel-control .icon-next, 
@@ -821,6 +821,7 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
   }
   .the-team img{
     max-width:240px;
+    width:100%;
   }
   .member-name h4{
     font-size:16px;

@@ -11,7 +11,8 @@
     <NuxtLink to="/kidsclub" class="link">Kids Club</NuxtLink>|
     <NuxtLink to="/test" class="link">Test Page</NuxtLink>|
     <NuxtLink to="/company" class="link">Company</NuxtLink>|
-    <NuxtLink to="/fan-zone" class="link">Fan Zone</NuxtLink>
+    <NuxtLink to="/fan-zone" class="link">Fan Zone</NuxtLink>|
+    <NuxtLink to="/community" class="link">Community</NuxtLink>
   </div>
 </template>
 <style scoped>

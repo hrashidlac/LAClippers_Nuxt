@@ -25,6 +25,7 @@ module.exports = {
         orange: '#fd5214',
         greyeee: "#EEE",
         greyddd: "#DDD",
+        greythree: "#333333",
       },
       fontSize: {
         xxs: '10px',

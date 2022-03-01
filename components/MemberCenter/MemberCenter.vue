@@ -2,17 +2,17 @@
   <div>
     <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/mvp/img/hero.jpg)">
       <h1>Member Center</h1>
-      <div class="flex">
+      <div class="sm:flex">
         <img class="mvp mvp-asp" src="https://clippersweb.blob.core.windows.net/mvp/img/mvp_aspiration_horizontal_wht2.png" style="width:200px;">
-        <div><a href="#" class="faq-button buy-now">MVP FAQ</a></div>
+        <div class="hidden sm:inline"><a href="#faq" class="faq-button buy-now mx-8">MVP FAQ</a></div>
         <div><a href="https://fanaccount.axs.com/?skin=clippers" target="_blank" class="buy-now buy-now-black">MEMBER LOGIN <span class="glyphicon glyphicon-new-window"></span></a></div>
       </div>
     </div>
     <TicketSubNav/>
     <!-- Intro -->
     <div class="intro-text container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+      <div class="sm:grid sm:grid-cols-12">
+        <div class="sm:col-start-2 sm:col-span-10 text-center">
           <h3>It's time to renew your 2022-23 Clippers Season Membership. Secure your seats for another season of action-packed Clippers basketball and guarantee your priority access to our future home, Intuit Dome. Seat selection for Intuit Dome starts in 2022, lock-in your tenure with your 2022-23 Clippers season tickets.</h3>
           <div class="ph-em">
             <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
@@ -252,8 +252,8 @@
     </div>
 
     <!-- Meet the Team -->
-    <div class="clearfix"></div>
-    <div class="row-full the-team text-center container">
+    <div class="clear-both"></div>
+    <div class="row-full the-team text-center container mt-12">
       <h2 class="section-title"><span>Meet the Team</span></h2>
       <div class="container">
         <div class="grid grid-cols-2 sm:grid-cols-3">

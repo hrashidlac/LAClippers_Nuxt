@@ -4,7 +4,7 @@
       <h1>Season Tickets</h1>
       <div class="flex">
         <img class="mvp mvp-asp" src="https://clippersweb.blob.core.windows.net/mvp/img/mvp_aspiration_horizontal_wht2.png" style="width:200px;">
-        <div><a href="https://shop.clippers.cloud/products/2022-2023-season-tickets-deposit" target="_blank" class="faq-button buy-now">Place a Deposit</a></div>
+        <div><a href="https://shop.clippers.cloud/products/2022-2023-season-tickets-deposit" target="_blank" class="faq-button buy-now mx-8">Place a Deposit</a></div>
         <div><a href="https://www.nba.com/clippers/premiumseats" target="_blank" class="buy-now buy-now-black">Secure Premium Seats</a></div>
       </div>
 
@@ -19,8 +19,8 @@
   <!-- Intro -->
   <div class="container">
     <div class="intro-text">
-      <div class="sm:grid sm:grid-cols-6">
-        <div class="sm:col-start-2 sm:col-span-4 text-center">
+      <div class="sm:grid sm:grid-cols-12">
+        <div class="sm:col-start-2 sm:col-span-10 text-center">
           <h3>The waitlist is now open for 2022-23 Season Membership. Securing your spot on the waitlist comes with incredible benefits, including, first-in-line privileges to the '22-23 Select-A-Seat Event and 2022 Playoff tickets. Your deposit also guarantees priority seat selection for our future home - Intuit Dome. If you would prefer to secure your seats for next season sooner, you can explore premium inventory options below. Your purchase of premium seats will immediately activate your 2022-23 Season Membership.</h3>
         </div>
       </div>
@@ -58,10 +58,14 @@
     <!-- Premium Inventory -->
     <div class="clearfix"></div>
     <div class="row text-center inventory">
-    <h2 class="text-center section-title"><span>Premium Seats now Available</span></h2>
-    <p class="">Securing premium seats for the 2022-23 season, guarantees your Season Membership and first-in-line privileges to seat selection at Intuit Dome. Seats selection for our future home will be made available as early as 2022! 
-    <img src="https://clippersweb.blob.core.windows.net/seasontickets/img/Membership_Benefits_Seating_Chart_Premium.png" class="img-responsive prem-chart">
-    <a href="https://www.nba.com/clippers/premiumseats" class="buy-now buy-now-bgr" target="_blank">Secure Premium Seats</a></p>
+      <div class="sm:grid sm:grid-cols-12">
+        <div class="sm:col-start-3 sm:col-span-8 text-center">
+          <h2 class="text-center section-title"><span>Premium Seats now Available</span></h2>
+          <p class="">Securing premium seats for the 2022-23 season, guarantees your Season Membership and first-in-line privileges to seat selection at Intuit Dome. Seats selection for our future home will be made available as early as 2022! 
+          <img src="https://clippersweb.blob.core.windows.net/seasontickets/img/Membership_Benefits_Seating_Chart_Premium.png" class="img-responsive prem-chart">
+          <a href="https://www.nba.com/clippers/premiumseats" class="buy-now buy-now-bgr" target="_blank">Secure Premium Seats</a></p>
+        </div>
+      </div>
     </div>  
   
     <!-- Intuit Dome Carousel -->    

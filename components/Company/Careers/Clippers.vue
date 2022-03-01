@@ -3,7 +3,7 @@
     <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/careers/img/1440x486-dark-citymap-bg.jpg)">
       <h1 >LA Clippers Careers</h1>
       <h2 class="my-4">Building a Business. Changing the Game.</h2>
-      <NuxtLink  to="/careers/openpositions" class="btn mb-4">View Open Positions</NuxtLink>
+      <NuxtLink  to="/company/careers/openpositions" class="btn mb-4">View Open Positions</NuxtLink>
       <a href="https://pages.beamery.com/nbateamcareers/page/clipperstalentcommunity" target="_blank" class="btn">Join Our Talent Community</a>
       
     </div>

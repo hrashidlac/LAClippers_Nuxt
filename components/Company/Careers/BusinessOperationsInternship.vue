@@ -3,7 +3,7 @@
     <div class="text-white uppercase flex flex-col justify-center items-center lg:h-500 bg-center bg-cover px-4 py-12 sm:py-0" style="background-image: url(https://clippersweb.blob.core.windows.net/careers/img/1440x486-dark-citymap-bg.jpg)">
       <h1 class="sm:text-5xl">BUSINESS OPERATIONS INTERNSHIP PROGRAM</h1>
       <h2 class="mb-8 sm:text-xl">As an intern you will have the opportunity to be a part of the business operations team for the LA Clippers.</h2>
-      <NuxtLink  to="/careers/openpositions" class="btn mb-4">View Open Positions</NuxtLink>
+      <NuxtLink  to="/company/careers/openpositions" class="btn mb-4">View Open Positions</NuxtLink>
       <a href="https://pages.beamery.com/nbateamcareers/page/clipperstalentcommunity" target="_blank" class="btn">Join Our Talent Community</a>   
     </div>
     <div class="container py-20 grid grid-cols-1 sm:grid-cols-3 gap-12">
