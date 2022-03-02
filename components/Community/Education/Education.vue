@@ -51,8 +51,8 @@
           <p>The LA Clippers Teacher Appreciation Program recognizes outstanding teachers for their hard work and dedication. Schools that participate in the Clippers education outreach program, Read to Achieve, nominate teachers to be honored as part of this special program. Each nominated teacher will be recognized in an on-court presentation prior to a Clippers home game this season.</p>
         </div>
         <div class="sm:col-span-2">
-          <a href="#" class="btn btn-sm w-full text-center mb-8">Nominate a Teacher</a>
-          <a href="#" class="btn btn-sm btn-outline-dark w-full text-center">Learn More</a>
+          <a href="https://laclippers-forms.formstack.com/forms/teacher_appreciation_2122_nominationform" class="btn btn-sm w-full text-center mb-8">Nominate a Teacher</a>
+          <NuxtLink to="/community/education/teacher-appreciation" class="btn btn-sm btn-outline-dark w-full text-center">Learn More</NuxtLink>
         </div>
       </div>
       

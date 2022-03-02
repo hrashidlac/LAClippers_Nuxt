@@ -6,7 +6,7 @@
       <NuxtLink to="/community/outreach" class="link">Coummunity Outreach</NuxtLink>
       <NuxtLink to="/community/foundation" class="link">Foundation</NuxtLink>
       <NuxtLink to="/community/school-program" class="link">School Program</NuxtLink>
-      <a href="#" class="link">Youth Basketball</a>
+      <a href="https://www.clipperscamps.com/" target="_blank" class="link">Youth Basketball</a>
     </div>
   </div>
 </template>
