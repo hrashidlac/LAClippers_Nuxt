@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtChild  />
+    <CommunityHeroes/>
   </div>
 </template>

@@ -2,7 +2,7 @@
   <div>
     <div class="hero text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-top bg-cover px-4" style="background-image: url(https://plchldr.co/i/2800x1000?bg=333)">
         <h1 class="">Community Outreach</h1>
-        <p class="mx-auto max-w-[50%] text-center mt-8">The Clippers team is active in our LA community all year long. Whether we’re supporting local events or hosting them, learn more about how you can join us. </p>
+        <p class="mx-auto max-w-[50%] text-center mt-8">The Clippers team is active in our LA community all year long. Whether we're supporting local events or hosting them, learn more about how you can join us. </p>
     </div>
     <CommunitySubNav/>
     <div class="container">
@@ -17,7 +17,7 @@
         </div>
         <div class="sm:col-span-2">
           <a href="#" class="btn btn-sm w-full text-center mb-8">Nominate a Hero</a>
-          <a href="#" class="btn btn-sm btn-outline-dark w-full text-center">Learn More</a>
+          <NuxtLink to="/community/outreach/community-heroes" class="btn btn-sm btn-outline-dark w-full text-center">Learn More</NuxtLink>
         </div>
       </div>
       <!-- clippers chairmen -->

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtChild  />
+    <Outreach/>
   </div>
 </template>

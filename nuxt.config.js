@@ -67,7 +67,8 @@ export default {
       '~/components/FanZone/Announcers',
       '~/components/Community',
       '~/components/Community/Education',
-      '~/components/Community/SchoolProgram'
+      '~/components/Community/SchoolProgram',
+      '~/components/Community/Outreach'
     ]
   },
 
