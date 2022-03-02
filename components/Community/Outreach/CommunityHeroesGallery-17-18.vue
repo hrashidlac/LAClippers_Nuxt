@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-center mb-8 mt-24">2017-2018 Community Heroes</h2>
     <flickity ref="flickity" :options="flickityOptions">
-      <div v-for="photo in photos" :key="photo.photo" class='carousel-cell text-center'>
+      <div v-for="photo in photos" :key="photo.name" class='carousel-cell text-center'>
         <div class="wrapper-top">
           <div class="wrapper-bottom">
             <div class="wrapper-side">

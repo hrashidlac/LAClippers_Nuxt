@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-center mb-8 mt-24">2018-2019 Community Heroes</h2>
     <flickity ref="flickity" :options="flickityOptions">
-      <div v-for="photo in photos" :key="photo.photo" class='carousel-cell text-center'>
+      <div v-for="photo in photos" :key="photo.name" class='carousel-cell text-center'>
         <div class="wrapper-top">
           <div class="wrapper-bottom">
             <div class="wrapper-side">
@@ -360,18 +360,6 @@ export default {
             name: "Maureen Chin",
             school: "Cedars-Sinai",
             hnrd: "Honored: December 22, 2018"
-          },
-          {
-            photo: "https://www.nba.com/resources/static/team/v2/clippers/Teacher-Appreciation-male-thumb.png",
-            name: "Chris Waterman",
-            school: "Fire Fighter Appreciation Night",
-            hnrd: "Honored: December 20, 2018"
-          },
-          {
-            photo: "https://www.nba.com/resources/static/team/v2/clippers/Teacher-Appreciation-male-thumb.png",
-            name: "Kaleb Phillips",
-            school: "Fire Fighter Appreciation Night",
-            hnrd: "Honored: December 20, 2018"
           },
           {
             photo: "https://www.nba.com/resources/static/team/v2/clippers/DEC_17_POR_HERO_ANA_BRYAN.jpg",
