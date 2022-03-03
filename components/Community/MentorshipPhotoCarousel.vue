@@ -24,7 +24,6 @@
 <script>
 
 import Flickity from 'vue-flickity'
-
 export default {
   
   data() {

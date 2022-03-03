@@ -27,6 +27,9 @@
       <TeacherSpotlightGallery-12-21/>
       <TeacherSpotlightGallery-20-21/>
       <TeacherSpotlightGallery-19-20/>
+      <TeacherAppreciationGallery-19-20/>
+      <TeacherAppreciationGallery-18-19/>
+      <TeacherAppreciationGallery-17-18/>
       <TeacherSpotlightGallery-16-17/>
       <TeacherSpotlightGallery-15-16/>
     </div>
@@ -41,3 +44,6 @@ export default {
   }
 }
 </script>
+<style scoped>
+
+</style>

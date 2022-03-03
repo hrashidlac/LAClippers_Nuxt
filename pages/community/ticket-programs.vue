@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SeasonTickets />
+    <TicketPrograms/>
   </div>
 </template>

@@ -18,20 +18,21 @@ export default {
   data() {
     return {
       flickityOptions: {
-        lazyLoad: 1,
+        lazyLoad: 2,
         wrapAround: true,
-        pageDots: false  
+        pageDots: false,
+        groupCells: true  
       },
       photos:
         [
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_davidchae.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_drewlewis.jpg",
-          "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_janelleguzman.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_janellesalgado.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_karenogbugbulu.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_kyledenman.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_brittnievargas-ortiz.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_marlahoffman.jpg",
+          "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_janelleguzman.jpg",
         ]
       
     }
@@ -51,7 +52,7 @@ export default {
 <style scoped>
 @media (min-width:767px){
   .carousel-cell{
-    width:33%;
+    width:20%;
     margin-right:10px;
   }
 }

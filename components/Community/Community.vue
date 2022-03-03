@@ -49,7 +49,7 @@
           </p>     
         </div>
       </a>
-      <NuxtLink to="#" class="mb-8">
+      <NuxtLink to="/community/ticket-programs" class="mb-8">
         <div>
           <div class="relative mb-4">
             <span class="tile-center">Ticket Program</span>

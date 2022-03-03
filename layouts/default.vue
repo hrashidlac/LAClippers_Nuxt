@@ -1,6 +1,7 @@
 <template>
-  <div>Layout File!
+  <div>
     <div>
+      <Header />
       <Nuxt />
     </div>
   </div>

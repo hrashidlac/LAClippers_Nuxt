@@ -4128,7 +4128,14 @@
     "fizzy-ui-utils" "^2.0.0"
     "flickity" "^2.0.0"
 
-"flickity@^2.0.0", "flickity@^2.2.0":
+"flickity-fullscreen@^1.1.1":
+  "integrity" "sha512-r9hxDXizjvXgBSwCwbqfaXDZRy02uH8UM73VvnxCml0ogKexpqZSlsit5hmGcJUKrtEx3svklJbGX0XUO8Z6DA=="
+  "resolved" "https://registry.npmjs.org/flickity-fullscreen/-/flickity-fullscreen-1.1.1.tgz"
+  "version" "1.1.1"
+  dependencies:
+    "flickity" "^2.1.0"
+
+"flickity@^2.0.0", "flickity@^2.1.0", "flickity@^2.2.0":
   "integrity" "sha512-x4cJBVywsaCWmId3I6wvBYJtWk3gcr+gz8UJQ48P57W5G7ER5OUgc3GUK0rtTrbMy/HYB9wL6u+I7EC4qrLO8g=="
   "resolved" "https://registry.npmjs.org/flickity/-/flickity-2.3.0.tgz"
   "version" "2.3.0"
@@ -4555,11 +4562,6 @@
   "integrity" "sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ=="
   "resolved" "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
-
-"highlight.js@^9.13.1":
-  "integrity" "sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA=="
-  "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-9.18.5.tgz"
-  "version" "9.18.5"
 
 "hmac-drbg@^1.0.1":
   "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
@@ -9106,24 +9108,10 @@
   dependencies:
     "flickity" "^2.2.0"
 
-"vue-hljs@^1.1.2":
-  "integrity" "sha512-KRNdqY8Z54Tn6M34azYmKybW9YL5uhAnjpRTkIaxJOP2e0jkGkTBXzkYJFOFwBC+lWj+1SBs5PLvc6O3RKhpsQ=="
-  "resolved" "https://registry.npmjs.org/vue-hljs/-/vue-hljs-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "highlight.js" "^9.13.1"
-
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
   "resolved" "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   "version" "2.3.4"
-
-"vue-instagram-embed@^1.0.0":
-  "integrity" "sha512-sQAa4ew6g4OE20XQzc/uYw40jFOoIFSFpfqvhaKNpgkQkBG5aNRxqdLsgAJtXAj2Q2H9kvQ/xxbiLGoQTrIsbQ=="
-  "resolved" "https://registry.npmjs.org/vue-instagram-embed/-/vue-instagram-embed-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "vue-hljs" "^1.1.2"
 
 "vue-js-modal@^2.0.1":
   "integrity" "sha512-5FUwsH2zoxRKX4a7wkFAqX0eITCcIMunJDEfIxzHs2bHw9o20+Iqm+uQvBcg1jkzyo1+tVgThR/7NGU8djbD8Q=="

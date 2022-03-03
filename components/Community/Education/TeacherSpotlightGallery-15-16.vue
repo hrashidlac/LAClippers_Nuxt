@@ -9,9 +9,9 @@
               <div class="wrapper-bg">
                 <img class="carousel-image rounded-full mx-auto mb-4" :data-flickity-lazyload="photo.photo">
                 <div class="carousel-caption">
-                  <div class="font-agencybold uppercase text-4xl border-t-2 border-b-2 border-greyddd pt-2 mb-2" >{{photo.name}}</div>
-                  <div class="font-agencybold uppercase text-xl text-blue">{{photo.school}}</div>
-                  <div class="font-agencybold uppercase text-xl text-red">{{photo.grade}}</div>
+                  <div class="font-agencybold uppercase text-xl border-t-2 border-b-2 border-greyddd pt-2 mb-2" >{{photo.name}}</div>
+                  <div class="font-agencybold uppercase text-sm text-blue">{{photo.school}}</div>
+                  <div class="font-agencybold uppercase text-sm text-red">{{photo.grade}}</div>
                   <div class="text-sm">{{photo.hnrd}}</div>
                 </div>
               </div>
@@ -32,9 +32,10 @@ export default {
   data() {
     return {
       flickityOptions: {
-        lazyLoad: 1,
+        lazyLoad: 2,
         wrapAround: true,
-        pageDots: false 
+        pageDots: false,
+        groupCells: true
       },
       photos:
         [
@@ -307,35 +308,48 @@ export default {
 </script>
 <style scoped>
 .carousel-cell img{
-  max-width:200px;
-}
-@media (min-width:767px){
-  .carousel-cell{
-    width:33%;
-    margin-right:10px;
-  }
+  max-width:100px;
 }
 
+
 .wrapper-top{
-  padding-top:40px;
+  padding-top:30px;
   background:transparent url("https://clippersweb.blob.core.windows.net/community/img/teacherappreciation/ta_bg_top.jpg") no-repeat;
   background-size:contain;
 }
 
 .wrapper-bottom{
-  padding-bottom:40px;
+  padding-bottom:30px;
   background:transparent url("https://clippersweb.blob.core.windows.net/community/img/teacherappreciation/ta_bg_bottom.jpg") no-repeat bottom;
   background-size:contain;
 }
 
 .wrapper-side{
-  padding-left:50px;
-  padding-right:50px;
+  padding-left:35px;
+  padding-right:35px;
   background:transparent url("https://clippersweb.blob.core.windows.net/community/img/teacherappreciation/ta_bg_side.jpg") repeat-y bottom;
   background-size:contain;
 }
 .wrapper-bg{
   padding:30px 0;
-  min-height:500px;
+  min-height:400px;
 }
+
+@media (min-width:767px){
+  .carousel-cell{
+    width:20%;
+    margin-right:10px;
+  }
+  .wrapper-side{
+    padding-left:25px;
+    padding-right:25px; 
+  }
+  .wrapper-top{
+    padding-top:20px;
+  }
+  .wrapper-bottom{
+    padding-bottom:20px;
+  }
+}
+
 </style>

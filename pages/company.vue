@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Header />
     <nav>
       <ul class="flex align-center justify-center p-0">
         <li class="mx-4">

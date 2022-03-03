@@ -18,9 +18,10 @@ export default {
   data() {
     return {
       flickityOptions: {
-        lazyLoad: 1,
+        lazyLoad: 2,
         wrapAround: true,
-        pageDots: false 
+        pageDots: false,
+        groupCells: true 
       },
       photos:
         [
@@ -87,13 +88,18 @@ export default {
 }
 </script>
 <style scoped>
+.carousel-cell img{
+  max-width:340px;
+}
+
 @media (min-width:767px){
   .carousel-cell{
-    width:33%;
+    width:20%;
     margin-right:10px;
   }
   .carousel-cell img{
     width:100%;
+    max-width:340px;
   }
 }
 

@@ -18,13 +18,14 @@ export default {
   data() {
     return {
       flickityOptions: {
-        lazyLoad: 1,
+        lazyLoad: 2,
         wrapAround: true,
-        pageDots: false 
+        pageDots: false,
+        groupCells: true  
       },
       photos:
         [
-          "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_danreyes.jpg",
+          
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_elsanaranjo.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_genevievemariani.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_guillermogonzalez.jpg",
@@ -43,6 +44,7 @@ export default {
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_robinluther.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_romelespinoza_1.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_trinamarch.jpg",
+          "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_danreyes.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_charlottesabet.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_crystalvythulu.jpg",
           "https://www.nba.com/clippers/sites/clippers/files/600x800_2021_teacherappreciation_drconradoulpindo.jpg",
@@ -74,7 +76,7 @@ export default {
 <style scoped>
 @media (min-width:767px){
   .carousel-cell{
-    width:33%;
+    width:20%;
     margin-right:10px;
   }
   .carousel-cell img{
