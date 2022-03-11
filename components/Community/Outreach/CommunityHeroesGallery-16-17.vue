@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-center mb-8 mt-24">2017-2018 Community Heroes</h2>
+    <h2 class="text-center mb-8 mt-12">2016-2017 Community Heroes</h2>
     <flickity ref="flickity" :options="flickityOptions">
       <div v-for="photo in photos" :key="photo.name" class='carousel-cell text-center'>
         <div class="wrapper-top">
@@ -643,6 +643,6 @@ export default {
 }
 .wrapper-bg{
   padding:30px 0;
-  min-height:400px;
+  min-height:450px;
 }
 </style>

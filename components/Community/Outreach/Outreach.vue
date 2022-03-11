@@ -27,7 +27,7 @@
         </div>
         <div class="sm:col-span-8">
           <h2 class="mb-4">Clippers Chairmen</h2>
-          <p>Wheelchair basketball began as rehabilitation for soldiers returning from World War II and was formalized as a competitive sport in 1948, just one season after the NBA. The LA Clippers Chairmen wheelchair basketball team is in its 11th season as part of the Clippers family. The Clippers team up with the National Wheelchair Basketball Association to sponsor the Clippers Chairmen. The Clippers Wheelchair players are not only chairmen of the court, they also participate with the Clippers community outreach and participate in wheelchair basketball clinics with adaptive PR programs at local high schools throughout the year.</p>
+          <p>Wheelchair basketball began as rehabilitation for soldiers returning from World War II and was formalized as a competitive sport in 1948, just one season after the NBA. The LA Clippers Chairmen wheelchair basketball team is in its 11th season as part of the Clippers family. The Clippers team up with the National Wheelchair Basketball Association to sponsor the Clippers Chairmen. The Clippers Wheelchair players are not only chairmen of the court, they also participate with the Clippers community outreach and participate in wheelchair basketball clinics with adaptive PE programs at local high schools throughout the year.</p>
         </div>
         <div class="sm:col-span-2">
           <!-- <a href="#" class="btn btn-sm w-full text-center mb-8">Nominate a Teacher</a>

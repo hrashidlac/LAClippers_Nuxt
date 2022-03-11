@@ -3,7 +3,7 @@
     <div class="container flex justify-end">
       <NuxtLink to="/community/mentorship" class="link">Mentorship</NuxtLink>
       <NuxtLink to="/community/education" class="link">Education</NuxtLink>
-      <NuxtLink to="/community/outreach" class="link">Coummunity Outreach</NuxtLink>
+      <NuxtLink to="/community/outreach" class="link">Community Outreach</NuxtLink>
       <NuxtLink to="/community/foundation" class="link">Foundation</NuxtLink>
       <NuxtLink to="/community/school-program" class="link">School Program</NuxtLink>
       <a href="https://www.clipperscamps.com/" target="_blank" class="link">Youth Basketball</a>

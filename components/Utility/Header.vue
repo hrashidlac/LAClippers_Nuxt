@@ -9,12 +9,14 @@
     <NuxtLink to="/ticketcentral" class="link">Ticket Central</NuxtLink>|
     <NuxtLink to="/membercenter" class="link">Member Center</NuxtLink>|
     <NuxtLink to="/kidsclub" class="link">Kids Club</NuxtLink>|
-    <NuxtLink to="/test" class="link">Test Page</NuxtLink>|
+    <!-- <NuxtLink to="/test" class="link" >Testr Page</NuxtLink>| -->
+    <a href="/test" class="link"> Test 2</a>|
     <NuxtLink to="/company" class="link">Company</NuxtLink>|
     <NuxtLink to="/fan-zone" class="link">Fan Zone</NuxtLink>|
     <NuxtLink to="/community" class="link">Community</NuxtLink>
   </div>
 </template>
+
 <style scoped>
 .header-links{
   margin-top: 10px;
