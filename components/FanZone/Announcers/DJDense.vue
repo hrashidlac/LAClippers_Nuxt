@@ -1,8 +1,26 @@
 <template>
   <div>
-    <div class="text-white uppercase flex flex-col justify-center items-center h-300 bg-center bg-cover px-4 mb-12" style="background-image: url(https://clippersweb.blob.core.windows.net/collegenights/img/2880x1000_CollegeNight_Header.jpg)">
-      <h1>DJ Dense</h1>
+    <!-- <video  class="w-full" autoplay loop muted poster="https://clippersweb.blob.core.windows.net/collegenights/img/2880x1000_CollegeNight_Header.jpg  ">
+      <source src="https://clippersweb.blob.core.windows.net/fanzone/dense/video/Comp%201_3.mp4" type="video/mp4">
+    </video> -->
+    <!-- <div class="aspect-w-16 aspect-h-9 lg:aspect-h-4 relative">
+      <video  class="w-full absolute top-0 left-0" autoplay loop muted poster="https://clippersweb.blob.core.windows.net/collegenights/img/2880x1000_CollegeNight_Header.jpg  ">
+        <source  class="w-full absolute top-0 left-0" src="https://clippersweb.blob.core.windows.net/fanzone/dense/video/Comp%201_3.mp4" type="video/mp4">
+      </video>
+    </div> -->
+
+    <div class="bg-video-wrap mb-12">
+      <video src="https://clippersweb.blob.core.windows.net/fanzone/dense/video/Comp%201_3.mp4" loop muted autoplay>
+      </video>
+      <div class="overlay">
+      </div>
+      <h1>DJ DENSE</h1>
+      <h2>Official DJ of the LA Clippers</h2>
     </div>
+    
+    <!-- <div class="text-white uppercase flex flex-col justify-center items-center h-300 bg-center bg-cover px-4 mb-12" style="background-image: url(https://clippersweb.blob.core.windows.net/collegenights/img/2880x1000_CollegeNight_Header.jpg)">
+      <h1>DJ Dense</h1>
+    </div> -->
     <div class="container">
       <div class="well related-info sm:flex">
         <div class="flex-none sm:pl-12 sm:order-last">
@@ -22,7 +40,6 @@
   </div>
 </template>
 <script>
-
 export default {
   data () {
     return {
@@ -31,4 +48,40 @@ export default {
 }
 </script>
 <style scoped>
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 65vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100%;
+  min-height: 65vh;
+  z-index: 1;
+}
+.overlay {
+  width: 100%;
+  height: 65vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-size: 3px 3px;
+  z-index: 2;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+  max-width: 500px;
+  width: 100%;
+  height: 50px;
+}
 </style>
