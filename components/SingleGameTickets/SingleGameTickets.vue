@@ -6,7 +6,7 @@
         <div class="container">
           <div class="single-game-top">
             <div class="title-box">
-              <h1 class="m-0"><span>Single Game</span> TICKETS</h1>
+              <h1 class="m-4 md:m-0"><span>Single Game</span> TICKETS</h1>
             </div>
             <form action="" id="Filters" name="Filter">
               <div class="formfield" id="month">
@@ -97,7 +97,7 @@
           <div class="single-game-body" id="options">
             <div class="accordion" id="accordionExample">
               <div
-                class="card"
+                class="card border-b-2 border-greyddd"
                 v-for="(game, i) in games"
                 :key="i"
                 data-aos="fade-right"
@@ -184,7 +184,7 @@
                         </span>
                       </div>
                       <div class="group-2 group">
-                        <h1 class="mobile-txt">
+                        <h1 class="mobile-txt uppercase">
                           {{ game.v.tn == 'Clippers' ? game.h.tc : game.v.tc }}
                           {{ game.v.tn == 'Clippers' ? game.h.tn : game.v.tn }}
                         </h1>
@@ -240,7 +240,7 @@
                     <div class="right-side">
                       <div class="group-1 buy single-game-btn-container">
                         <a
-                          class="btn"
+                          class="btn text-center"
                           :href="game.ticketInfo.axs"
                           target="_blank"
                           >GET TICKETS</a

@@ -9,7 +9,7 @@
     </div>
     <TicketSubNav/>
     <!-- Intro -->
-    <div class="container">
+    <div class="container mt-8 md:mt-0">
       <div class="intro-text">
         <div class="sm:grid sm:grid-cols-6">
           <div class="sm:col-start-2 sm:col-span-4 text-center aos-item" data-aos="fade-up">
@@ -134,33 +134,8 @@
         </div>  
       </div> -->
     </div>
-    <!-- Contact -->
-    <div class="row-full row-full-footer">
-      <div class="container">
-        <div class="">
-          <div class="sm:grid sm:grid-cols-6  contact">
-            <div class="">
-              <div class="icon">
-                <a href="tel:+2132042900"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
-              </div>
-              <div class="details">
-                <span>Phone</span>
-                <a href="tel:+2132042900">(213)-204-2900</a>
-              </div>
-            </div>
-            <div>
-              <div class="icon">
-                <a href="mailto:fanassist@clippers.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-              </div>
-              <div class="details">
-                <span>Email</span>
-                <a href="mailto:fanassist@clippers.com">FanAssist@Clippers.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <!-- Ticket Contact -->
+    <TicketContact/>
   </div>
 </template>
 <script>

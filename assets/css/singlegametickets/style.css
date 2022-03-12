@@ -25,9 +25,19 @@
 
 #special-section-clippers-season-20192020 .content .single-game-top h1 {
     text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom:20px;
+}
+
+@media screen and (min-width: 992px) {
+  #special-section-clippers-season-20192020 .content .single-game-top h1 {
     font-size: 30px;
     line-height: 40px;
+  }
 }
+
+
 
 #special-section-clippers-season-20192020 .content .single-game-top h1 span {
     color: #cd132c;
@@ -70,6 +80,7 @@
 @media screen and (max-width: 500px) {
     #special-section-clippers-season-20192020 .content .single-game-top select {
         width: 100% !important;
+        margin-bottom:10px;
     }
 }
 

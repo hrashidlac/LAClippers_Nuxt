@@ -1,25 +1,24 @@
 <template>
   <div class="wrapper"> 
-    
     <section id="video" class="main-video video row-full">
       <div>
         <div class="videoBg text-center">
-          <div class="videoFg hidden-xs">
+          <div class="videoFg hidden sm:block">
             <iframe src="https://www.youtube.com/embed/COucXAVw_n8?&controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=COucXAVw_n8" frameborder="0" allowfullscreen=""></iframe>
           </div>
           <div class="subTxt text">
             <h2>2021-2022 CITY EDITION</h2>
             <h1>MOMENTS<br/>MIXTAPE</h1>
-            <div class="header-sign-up visible-xs">
+            <div class="header-sign-up block sm:hidden">
               <div><a href="https://shop.clippers.com/collections/2021-la-clippers-city-edition-moments-remix?utm_source=website&utm_medium=cityedition&utm_campaign=211115&utm_content=herovideo" class="btn btn-sign-up" target="_blank">SHOP NOW</a></div>
             </div>
           </div>
-          <div class="overlay hidden-xs"></div>
+          <div class="overlay hidden sm:block"></div>
         </div>
       </div>
     </section>
      <!-- Sign Up -->
-    <div class="row-full sign-up hidden-xs" id="faq">
+    <div class="row-full sign-up hidden sm:block" id="faq">
       <div class="container">
         <div class="">
           <div class="sign-up-form">
@@ -52,29 +51,29 @@
               <div class="sm:col-span-5 nopadding aos-item details-text details-text-right details-text-white" data-aos="fade-up">
                 <div class="">
                   <h3>CLIPPERS WORDMARK</h3>
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent3.png" class="img-responsive accent accent-left hidden-xs">
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left visible-xs">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent3.png" class="img-responsive accent accent-left hidden sm:block">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left block sm:hidden">
                   <p class="bigger">2014-15: The iconic Clippers script wordmark is centralized on the front of the uniform representing the 2014-15 season.</p>
                   <p><a href="https://shop.clippers.com/collections/2021-la-clippers-city-edition-moments-remix?utm_source=website&utm_medium=cityedition&utm_campaign=211115&utm_content=wordmark" class="btn btn-sign-up btn-smaller"  target="_blank">SHOP NOW</a></p>
                 </div>
               </div>
             </div>
-            <div class="sm:grid sm:grid-cols-12">        
+            <div class="sm:grid sm:grid-cols-12 mt-24 lg:mt-0">        
               <div class="sm:col-span-7 sm:order-last nopadding-left aos-item details-bump" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img2.jpg" alt="" loading=lazy>
               </div>
               <div class="sm:col-span-5 nopadding aos-item details-bump details-text details-braves" data-aos="fade-up">
                 <div class="why-join-text">
                   <h3>BUFFALO BRAVES LOGO</h3>
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden-xs">
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left visible-xs">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden sm:block">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left block sm:hidden">
                   <p class="bigger">1970: The Buffalo Braves logo on the belt buckle celebrates the team's inception. The Buffalo Braves were one of three expansion franchises that joined the league in the 1970-71 season.<p>
                   <p><a href="https://shop.clippers.com/collections/2021-la-clippers-city-edition-moments-remix?utm_source=website&utm_medium=cityedition&utm_campaign=211115&utm_content=braves" class="btn btn-sign-up btn-smaller"  target="_blank">SHOP NOW</a></p>
                 </div>
               </div>
             </div>
             <!-- section 2 -->
-            <div class="sm:grid sm:grid-cols-12">
+            <div class="sm:grid sm:grid-cols-12 mt-24">
               <div class="sm:col-span-7 aos-item" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img3.jpg" alt="" loading=lazy>
               </div>
@@ -88,15 +87,15 @@
                 </div>
               </div>
             </div>
-            <div class="sm:grid sm:grid-cols-12">        
+            <div class="sm:grid sm:grid-cols-12 mt-24 lg:mt-0">        
               <div class="sm:col-span-7 sm:order-last aos-item details-bump" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img4.jpg" alt="" loading=lazy>
               </div>
               <div class="sm:col-span-5 nopadding aos-item details-bump details-text" data-aos="fade-up">
                 <div class="why-join-text">
                   <h3>LETTERING & TAPING</h3>
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden-xs">
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left visible-xs">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden sm:block">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left block sm:hidden">
                   <p class="bigger">1984: In 1984 the team moved to Los Angeles. The jersey numbers and the neck, arm and short taping are a throwback to the 1984-85 season's uniform design.</p>
                   <p><a href="https://shop.clippers.com/collections/2021-la-clippers-city-edition-moments-remix?utm_source=website&utm_medium=cityedition&utm_campaign=211115&utm_content=lettering" class="btn btn-sign-up btn-smaller"  target="_blank">SHOP NOW</a></p>
                 </div>
@@ -104,7 +103,7 @@
             </div>
 
             <!-- section 3 -->
-            <div class="sm:grid sm:grid-cols-12">
+            <div class="sm:grid sm:grid-cols-12 mt-24">
               <div class="sm:col-span-7 nopadding-right aos-item" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img5.jpg" alt="" loading=lazy>
               </div>
@@ -117,15 +116,15 @@
                 </div>
               </div>
             </div>
-            <div class="sm:grid sm:grid-cols-12">        
+            <div class="sm:grid sm:grid-cols-12 mt-24 lg:mt-0">        
               <div class="sm:col-span-7 sm:order-last aos-item details-bump" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img6.jpg" alt="" loading=lazy>
               </div>
               <div class="sm:col-span-5 aos-item details-bump details-text details-primary" data-aos="fade-up">
                 <div class="why-join-text">
                   <h3>CLIPPERS PRIMARY ICON</h3>
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden-xs">
-                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left visible-xs">      
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent.png" class="img-responsive accent accent-right hidden sm:block">
+                  <img src="https://clippersweb.blob.core.windows.net/city/img/details-accent2.png" class="img-responsive accent accent-left block sm:hidden">      
                   <p class="bigger">2021-22: The Clippers' current primary icon logo appears on the vent of the short. This exclusive City Edition logo features the Pacific blue colorway.</p>
                   <p><a href="https://shop.clippers.com/collections/2021-la-clippers-city-edition-moments-remix?utm_source=website&utm_medium=cityedition&utm_campaign=211115&utm_content=primary" class="btn btn-sign-up btn-smaller"  target="_blank">SHOP NOW</a></p>
 
@@ -134,7 +133,7 @@
             </div>
 
             <!-- section 4 -->
-            <div class="sm:grid sm:grid-cols-12 row-last">
+            <div class="sm:grid sm:grid-cols-12 row-last  mt-24 lg:mt-0 mb-24">
               <div class="sm:col-span-7 aos-item details-bump" data-aos="fade-up">
                 <img class="img-responsive" src="https://clippersweb.blob.core.windows.net/city/img/img7.jpg" alt="" loading=lazy>
               </div>
@@ -158,7 +157,7 @@
     <div class="row-full photos story"> 
       <div class="container">
         <h2 class="section-title">THE MOMENTS</h2>
-        <p class="section-subtitle hidden-xs">Click on the team logos below to view moments from Clippers history.</p>
+        <p class="section-subtitle hidden sm:block">Click on the team logos below to view moments from Clippers history.</p>
         <CityStory/>
       </div>
     </div>
@@ -279,8 +278,8 @@ export default {
 }
 
 .btn-smaller{ 
-  padding:6px 15px 4px;
-  font-size: 13px;
+  padding:10px 15px 5px;
+  font-size: 16px;
 }
 .fan-shop{
   width: 200px;

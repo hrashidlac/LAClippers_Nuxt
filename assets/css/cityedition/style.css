@@ -139,7 +139,7 @@ h2.section-title{
 }
 .btn-sign-up{
   background:#fa4d09;
-  margin:-16px 0 0 30px;
+  /* margin:-16px 0 0 30px; */
   border-radius:0;
   color:#FFF;
   font-size:16px;
@@ -542,6 +542,11 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
 
 /* Tablet Media Query */
 @media screen and (min-width: 768px) {
+  .details-text{
+    display: flex;
+    justify-content: flex-end;
+    padding:80px 40px 50px 40px;
+  }
 	.field-name-body > .container {
     width: 100%;
 		padding-left:0;
@@ -662,8 +667,8 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
   }
   
   .bigger{
-    font-size:18px;
-    line-height: 28px;
+    font-size:16px;
+    line-height: 24px;
   }
 }
 
@@ -678,7 +683,7 @@ div[data-form-block-id] .onFormSubmittedFeedback .onFormSubmittedFeedbackMessage
 
   }
   .details-bump{
-    margin-top:-200px;
+    margin-top:-100px;
   }
   .details-text{
     display: flex;

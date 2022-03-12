@@ -1,11 +1,11 @@
 <template>
   <div>     
-    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/ticketcentral/img/hero.jpg)">
+    <div class="text-white uppercase flex flex-col justify-center items-center h-300 lg:h-500 bg-left lg:bg-center bg-cover px-4" style="background-image: url(https://clippersweb.blob.core.windows.net/ticketcentral/img/hero.jpg)">
       <div class="header-year-logo">
         2021 <img class="icon inline -mt-2 lg:-mt-4 w-10 lg:w-auto" src="https://www.nba.com/resources/static/team/v2/clippers/custom/season-tickets/img/icon.png"> 2022
       </div>
       <h1>Ticket Central</h1>
-      <div class="header-buttons">
+      <div class="header-buttons hidden lg:block lg:flex lg:justify-center mt-12">
         <div><a href="tel:+2132042900" class="phone-button">213-204-2900</a></div>
         <div><a href="mailto:fanassist@clippers.com" class="email-button">EMAIL US</a></div>
       </div>
@@ -14,7 +14,7 @@
     <!-- Tiles -->
     <div class="row-full tiles">
       <div class="container">
-        <div class="sm:grid sm:grid-cols-3 sm:gap-10">
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           <div>
             <NuxtLink to="/seasontickets" class="tile-link">
               <div class="tile tile-seasontickets">
@@ -92,7 +92,7 @@
     </div>
     <div class="clearfix"></div>
     <!-- Download app -->
-    <div class="row-full download-app">
+    <div class="row-full download-app mt-12">
       <div class="container">
         <div class="sm:grid sm:grid-cols-2 sm:gap-10">
           <div>
@@ -133,7 +133,7 @@
     <div id="faq">
       <h2 class="text-center section-title"><span>FAQ's</span></h2>
     </div>
-    <div class="container">
+    <div class="container mb-24">
       <TicketCentralFAQ/>
     </div>
     <!-- Sign Up -->
@@ -154,32 +154,7 @@
       </div>  
     </div>
     <!-- Contact -->
-    <div class="row-full row-full-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-offset-1 col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-3 contact">
-            <div>
-              <div class="icon">
-                <a href="tel:+2132042900"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
-              </div>
-              <div class="details">
-                <span>Phone</span>
-                <a href="tel:+2132042900">(213)-204-2900</a>
-              </div>
-            </div>
-            <div>
-              <div class="icon">
-                <a href="mailto:fanassist@clippers.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-              </div>
-              <div class="details">
-                <span>Email</span>
-                <a href="mailto:fanassist@clippers.com">FanAssist@Clippers.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <TicketContact/>
   </div>
 </template>
 <script>

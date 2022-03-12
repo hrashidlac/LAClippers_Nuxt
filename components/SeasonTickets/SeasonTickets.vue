@@ -4,17 +4,16 @@
       <h1>Season Tickets</h1>
       <div class="flex">
         <img class="mvp mvp-asp" src="https://clippersweb.blob.core.windows.net/mvp/img/mvp_aspiration_horizontal_wht2.png" style="width:200px;">
-        <div><a href="https://shop.clippers.cloud/products/2022-2023-season-tickets-deposit" target="_blank" class="faq-button buy-now mx-8">Place a Deposit</a></div>
-        <div><a href="https://www.nba.com/clippers/premiumseats" target="_blank" class="buy-now buy-now-black">Secure Premium Seats</a></div>
+        <div class="hidden md:block"><a href="https://shop.clippers.cloud/products/2022-2023-season-tickets-deposit" target="_blank" class="faq-button buy-now mx-8">Place a Deposit</a></div>
+        <div class="hidden md:block"><a href="https://www.nba.com/clippers/premiumseats" target="_blank" class="buy-now buy-now-black">Secure Premium Seats</a></div>
       </div>
-
-      <!-- <div class="visible-xs">
+    </div>
+    <div class="md:hidden">
         <div class="header-buttons header-buttons-mobile">
         <div><a href="https://shop.clippers.cloud/products/2022-2023-season-tickets-deposit" target="_blank" class="faq-button buy-now">Place a Deposit</a></div>
           <div><a href="https://www.nba.com/clippers/premiumseats" target="_blank" class="buy-now buy-now-black">Secure Premium Seats</a></div>
         </div>
-      </div> -->
-    </div>
+      </div>
     <TicketSubNav/>
   <!-- Intro -->
   <div class="container">
@@ -27,7 +26,7 @@
     </div>
 
     <!-- Row Tiles -->
-    <div class="row tiles">
+    <div class="row tiles mt-12">
       <h2 class="text-center section-title"><span>MEMBER PERKS</span></h2>
       <div class="sm:grid sm:grid-cols-3 sm:gap-10">
         <div class="tile tile-2">
@@ -159,32 +158,9 @@
     <div id="faq"><h2 class="text-center section-title"><span>FAQ's</span></h2></div>
     <SeasonTicketsFAQ/>
   </div>
-  <!-- Contact -->
-  <div class="row-full row-full-footer">
-    <div class="container">
-      <div class="sm:grid sm:grid-cols-2 sm:gap-10 contact">
-          <div>
-            <div class="icon">
-              <a href="tel:+2132042900"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
-            </div>
-            <div class="details">
-              <span>Phone</span>
-              <a href="tel:+2132042900">(213)-204-2900</a>
-            </div>
-          </div>
-          <div>
-            <div class="icon">
-              <a href="mailto:fanassist@clippers.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-            </div>
-            <div class="details">
-              <span>Email</span>
-              <a href="mailto:fanassist@clippers.com">FanAssist@Clippers.com</a>
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-  </div>
+  <!-- Ticket Contact -->
+  <TicketContact/>
+</div>
   
 </template>
 <script>
