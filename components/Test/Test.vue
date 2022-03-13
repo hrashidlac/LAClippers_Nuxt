@@ -1,16 +1,8 @@
 <template>
-  <div id="v-form">
-    <div class="header-section"></div>
-    <!-- 
-      <div data-form-block-id="60fc0d57-53ee-eb11-bacb-00224809a9ae"></div> 
-    <script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.74.1038.0"></script> 
-    <div id="dfzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI"></div>
-    <script src="https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.74.1038.0"></script>
-    <div class="d365-mkt-config" style="display:none" data-website-id="fzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI" data-hostname="aa8d20baa12c40e281518e9e92b636ad.svc.dynamics.com"></div> 
-    -->
-    <div data-form-block-id="60fc0d57-53ee-eb11-bacb-00224809a9ae" v-if="isScriptLoaded"></div> 
-    <div id="dfzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI" v-if="isScriptLoaded2"></div>
-    <div class="d365-mkt-config" style="display:none" data-website-id="fzXoiGg_ZVQ4cQYffm4drGLe7CLsCLEPpE9_BQ0ReuI" data-hostname="aa8d20baa12c40e281518e9e92b636ad.svc.dynamics.com"></div> 
+  <div>
+    <div data-form-block-id="f421dfe9-836d-ec11-8943-00224809c7fe" v-if="isScriptLoaded"></div>
+    <div id="dtF-ApfZi1CKbDheXWVNRze1ifM8Z-NjJpVuaErhZ0Nw" v-if="isScriptLoaded2"></div>
+    <div class="d365-mkt-config" style="display:none" data-website-id="tF-ApfZi1CKbDheXWVNRze1ifM8Z-NjJpVuaErhZ0Nw" data-hostname="aa8d20baa12c40e281518e9e92b636ad.svc.dynamics.com"></div>
   </div>
 </template>
 <script>
@@ -30,7 +22,7 @@ export default {
         {
           hid: 'script1',
           once: true,
-          src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.74.1038.0',
+          src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.77.1005',
           //body: true,
           //defer: true,
           // Changed after script load
@@ -39,7 +31,7 @@ export default {
         {
           hid: 'script2',  
           once: true,
-          src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.74.1038.0',
+          src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.77.1005',
           //body: true,
           //defer: true,
           // Changed after script load
@@ -51,4 +43,3 @@ export default {
   }
 }
 </script>
-<style src="../../assets/css/v-form.css" scoped></style>
