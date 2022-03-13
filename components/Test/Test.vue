@@ -1,5 +1,6 @@
 <template>
   <div id="v-form">
+    <div class="header-section"></div>
     <!-- 
       <div data-form-block-id="60fc0d57-53ee-eb11-bacb-00224809a9ae"></div> 
     <script src="https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.74.1038.0"></script> 
@@ -30,8 +31,8 @@ export default {
           hid: 'script1',
           once: true,
           src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/form-loader.js?v=1.74.1038.0',
-          body: true,
-          defer: true,
+          //body: true,
+          //defer: true,
           // Changed after script load
           callback: () => { this.isScriptLoaded = true } 
         },
@@ -39,8 +40,8 @@ export default {
           hid: 'script2',  
           once: true,
           src: 'https://mktdplp102cdn.azureedge.net/public/latest/js/ws-tracking.js?v=1.74.1038.0',
-          body: true,
-          defer: true,
+          //body: true,
+          //defer: true,
           // Changed after script load
           callback: () => { this.isScriptLoaded2 = true } 
         }

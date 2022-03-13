@@ -1,4 +1,10 @@
 /*Vertical Forms*/
+
+#v-form .header-section{
+  background:red;
+  width:100%;
+  height:50px;
+}
 #v-form .v-form-content{
   max-width:600px;
   margin: 40px auto 0;
