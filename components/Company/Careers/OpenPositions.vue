@@ -17,8 +17,7 @@
         </script>-->
         <div class="sm:col-start-2 sm:col-span-4" v-if="isScriptLoaded">
           <div v-if="isScriptLoaded2">
-            <div id="whr_embed_hook">
-              
+            <div id="whr_embed_hook"> 
             </div>
           </div>
         </div>
@@ -66,8 +65,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-.whr-group{
-  margin-top:30px;
-}
-</style>

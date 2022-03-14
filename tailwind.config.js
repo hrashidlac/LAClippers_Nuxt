@@ -63,7 +63,8 @@ module.exports = {
       },
       height: {
         '300': '300px',        
-        '500': '500px',      
+        '500': '500px',  
+        '50': '50vh'    
       },
       // screens: {
       //   xs: '480px',

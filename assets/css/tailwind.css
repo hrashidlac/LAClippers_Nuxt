@@ -77,8 +77,8 @@
 .container::before{
   display: none !important;
 }
-/* 
-Workable Careers page */
+
+/*Workable Careers page */
 .whr-group{
   margin:50px 0 20px;
   padding-top:50px;
@@ -93,4 +93,7 @@ Workable Careers page */
 .whr-item:last-child{
   padding:0;
   border:0;
+}
+.whr-title a:hover{
+  color:#da1a32;
 }
