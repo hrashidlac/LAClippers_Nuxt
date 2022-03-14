@@ -77,4 +77,20 @@
 .container::before{
   display: none !important;
 }
-
+/* 
+Workable Careers page */
+.whr-group{
+  margin:50px 0 20px;
+  padding-top:50px;
+  border-top:1px solid #CCC;
+  text-align: center;
+}
+.whr-item{
+  margin-bottom:30px;
+  padding-bottom:30px;
+  border-bottom:1px solid #CCC;
+}
+.whr-item:last-child{
+  padding:0;
+  border:0;
+}

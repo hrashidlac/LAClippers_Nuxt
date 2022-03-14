@@ -7,7 +7,7 @@
       
     </div>
     <div class="container py-20">
-      <div>
+      <div class="sm:grid sm:grid-cols-6">
         <!-- Workable Embed Scripts Here -->
         <!-- <script src='https://www.workable.com/assets/embed.js' type='text/javascript'></script>
         <script type='text/javascript' charset='utf-8'>
@@ -15,10 +15,10 @@
         whr_embed(345238, {detail: 'titles', base: 'jobs', zoom: 'country', grouping: 'departments'});
         });
         </script>-->
-        <div v-if="isScriptLoaded">
+        <div class="sm:col-start-2 sm:col-span-4" v-if="isScriptLoaded">
           <div v-if="isScriptLoaded2">
             <div id="whr_embed_hook">
-          
+              
             </div>
           </div>
         </div>
@@ -46,8 +46,8 @@ export default {
           hid: 'script1',
           once: true,
           src: 'https://www.workable.com/assets/embed.js',
-          body: true,
-          defer: true,
+          //body: true,
+          //defer: true,
           // Changed after script load
           callback: () => { this.isScriptLoaded = true } 
         },
@@ -66,3 +66,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.whr-group{
+  margin-top:30px;
+}
+</style>
