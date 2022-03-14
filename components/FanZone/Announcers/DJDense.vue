@@ -9,13 +9,12 @@
       </video>
     </div> -->
 
-    <div class="bg-video-wrap mb-12">
+    <div class="aspect-w-16 aspect-h-6 bg-video-wrap mb-12">
       <video src="https://clippersweb.blob.core.windows.net/fanzone/dense/video/Comp%201_3.mp4" loop muted autoplay>
       </video>
       <div class="overlay">
       </div>
       <h1>DJ DENSE</h1>
-      <h2>Official DJ of the LA Clippers</h2>
     </div>
     
     <!-- <div class="text-white uppercase flex flex-col justify-center items-center h-300 bg-center bg-cover px-4 mb-12" style="background-image: url(https://clippersweb.blob.core.windows.net/collegenights/img/2880x1000_CollegeNight_Header.jpg)">
@@ -52,17 +51,17 @@ export default {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: 65vh;
-  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+  /* height: 65vh; */
+  /* background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover; */
 }
 video {
   min-width: 100%;
-  min-height: 65vh;
+  /* min-height: 65vh; */
   z-index: 1;
 }
 .overlay {
   width: 100%;
-  height: 65vh;
+  /* height: 65vh; */
   position: absolute;
   top: 0;
   left: 0;

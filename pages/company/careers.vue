@@ -6,7 +6,7 @@
           <NuxtLink to="/company/careers/clippers">Clippers Careers</NuxtLink>
         </li>
         <li class="mx-4">
-          <NuxtLink to="/company/careers/openpositions">Open Positions</NuxtLink>
+          <a href="/company/careers/openpositions">Open Positions</a>
         </li>
         <li class="mx-4">
           <NuxtLink to="/company/careers/insidesales">Inside Sales</NuxtLink>
