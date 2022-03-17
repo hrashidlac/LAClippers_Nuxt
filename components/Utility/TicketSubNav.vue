@@ -6,7 +6,7 @@
       <NuxtLink to="/seasontickets" class="link">Season Tickets</NuxtLink>
       <NuxtLink to="/membercenter" class="link">Member Center</NuxtLink>
       <NuxtLink to="/miniplans" class="link">Miniplans</NuxtLink>
-      <NuxtLink to="/groups" class="link">Group Tickets</NuxtLink>
+      <a href="/groups" class="link">Group Tickets</a>
       <NuxtLink to="/suites" class="link">Suites</NuxtLink>
     </div>
   </div>

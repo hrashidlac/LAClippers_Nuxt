@@ -4,7 +4,7 @@
     <NuxtLink to="/giveaways" class="link">Giveaway</NuxtLink>|
     <NuxtLink to="/miniplans" class="link">Miniplans</NuxtLink>|
     <NuxtLink to="/seasontickets" class="link">SeasonTickets</NuxtLink>|
-    <NuxtLink to="/groups" class="link">Groups</NuxtLink>|
+    <a href="/groups" class="link">Groups</a>|
     <NuxtLink to="/cityedition" class="link">City</NuxtLink>|
     <NuxtLink to="/ticketcentral" class="link">Ticket Central</NuxtLink>|
     <NuxtLink to="/membercenter" class="link">Member Center</NuxtLink>|
